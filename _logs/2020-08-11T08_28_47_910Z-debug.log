@@ -1,0 +1,1802 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'functional-javascript-workshop'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session b3042eebdd0aac36
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/functional-javascript-workshop 1305ms (from cache)
+8 silly pacote tag manifest for functional-javascript-workshop@latest fetched in 1372ms
+9 timing stage:loadCurrentTree Completed in 1428ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 5ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule functional-javascript-workshop@1.0.6 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/deep-eql 107ms (from cache)
+18 silly pacote range manifest for deep-eql@^0.1.3 fetched in 116ms
+19 silly resolveWithNewModule deep-eql@0.1.3 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/lorem-ipsum 1016ms (from cache)
+21 http fetch GET 304 https://registry.npmjs.org/workshopper-exercise 1014ms (from cache)
+22 http fetch GET 304 https://registry.npmjs.org/workshopper 1029ms (from cache)
+23 silly pacote range manifest for workshopper-exercise@^2.4.0 fetched in 1038ms
+24 silly resolveWithNewModule workshopper-exercise@2.7.0 checking installable status
+25 silly pacote range manifest for lorem-ipsum@^1.0.1 fetched in 1049ms
+26 silly resolveWithNewModule lorem-ipsum@1.0.6 checking installable status
+27 silly pacote range manifest for workshopper@^2.6.0 fetched in 1050ms
+28 silly resolveWithNewModule workshopper@2.7.0 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/type-detect 60ms (from cache)
+30 silly pacote version manifest for type-detect@0.1.1 fetched in 72ms
+31 silly resolveWithNewModule type-detect@0.1.1 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/minimist 64ms (from cache)
+33 silly pacote range manifest for minimist@~1.2.0 fetched in 72ms
+34 silly resolveWithNewModule minimist@1.2.5 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/mkdirp 201ms (from cache)
+36 http fetch GET 304 https://registry.npmjs.org/chalk 223ms (from cache)
+37 silly pacote range manifest for mkdirp@~0.3.5 fetched in 210ms
+38 warn deprecated mkdirp@0.3.5: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+39 silly resolveWithNewModule mkdirp@0.3.5 checking installable status
+40 silly pacote range manifest for chalk@~0.4.0 fetched in 242ms
+41 silly resolveWithNewModule chalk@0.4.0 checking installable status
+42 http fetch GET 304 https://registry.npmjs.org/optimist 272ms (from cache)
+43 http fetch GET 304 https://registry.npmjs.org/terminal-menu 274ms (from cache)
+44 http fetch GET 304 https://registry.npmjs.org/xtend 273ms (from cache)
+45 http fetch GET 304 https://registry.npmjs.org/visualwidth 282ms (from cache)
+46 silly pacote range manifest for optimist@~0.6.1 fetched in 289ms
+47 silly resolveWithNewModule optimist@0.6.1 checking installable status
+48 silly pacote range manifest for terminal-menu@^2.1.1 fetched in 289ms
+49 silly resolveWithNewModule terminal-menu@2.1.1 checking installable status
+50 silly pacote range manifest for xtend@~3.0.0 fetched in 288ms
+51 silly resolveWithNewModule xtend@3.0.0 checking installable status
+52 silly pacote range manifest for visualwidth@~0.0.1 fetched in 292ms
+53 silly resolveWithNewModule visualwidth@0.0.1 checking installable status
+54 http fetch GET 304 https://registry.npmjs.org/map-async 957ms (from cache)
+55 http fetch GET 304 https://registry.npmjs.org/colors-tmpl 980ms (from cache)
+56 silly pacote range manifest for map-async@~0.1.1 fetched in 974ms
+57 silly resolveWithNewModule map-async@0.1.1 checking installable status
+58 silly pacote range manifest for colors-tmpl@~0.1.0 fetched in 991ms
+59 warn deprecated colors-tmpl@0.1.1: no longer maintained
+60 silly resolveWithNewModule colors-tmpl@0.1.1 checking installable status
+61 http fetch GET 304 https://registry.npmjs.org/i18n-core 1073ms (from cache)
+62 http fetch GET 304 https://registry.npmjs.org/msee 1066ms (from cache)
+63 silly pacote range manifest for i18n-core@^1.3.2 fetched in 1094ms
+64 silly resolveWithNewModule i18n-core@1.3.3 checking installable status
+65 silly pacote range manifest for msee@~0.1.1 fetched in 1083ms
+66 silly resolveWithNewModule msee@0.1.2 checking installable status
+67 http fetch GET 304 https://registry.npmjs.org/has-color 89ms (from cache)
+68 silly pacote range manifest for has-color@~0.1.0 fetched in 98ms
+69 silly resolveWithNewModule has-color@0.1.7 checking installable status
+70 http fetch GET 304 https://registry.npmjs.org/strip-ansi 125ms (from cache)
+71 silly pacote range manifest for strip-ansi@~0.1.0 fetched in 138ms
+72 silly resolveWithNewModule strip-ansi@0.1.1 checking installable status
+73 http fetch GET 304 https://registry.npmjs.org/ansi-styles 157ms (from cache)
+74 silly pacote range manifest for ansi-styles@~1.0.0 fetched in 171ms
+75 silly resolveWithNewModule ansi-styles@1.0.0 checking installable status
+76 http fetch GET 304 https://registry.npmjs.org/colors 73ms (from cache)
+77 silly pacote range manifest for colors@~0.6.2 fetched in 83ms
+78 silly resolveWithNewModule colors@0.6.2 checking installable status
+79 http fetch GET 304 https://registry.npmjs.org/mustache 99ms (from cache)
+80 silly pacote range manifest for mustache@^0.8.2 fetched in 106ms
+81 silly resolveWithNewModule mustache@0.8.2 checking installable status
+82 http fetch GET 304 https://registry.npmjs.org/sprintf 298ms (from cache)
+83 silly pacote range manifest for sprintf@^0.1.4 fetched in 307ms
+84 warn deprecated sprintf@0.1.5: The sprintf package is deprecated in favor of sprintf-js.
+85 silly resolveWithNewModule sprintf@0.1.5 checking installable status
+86 silly pacote range manifest for xtend@~2.1.1 fetched in 28ms
+87 silly resolveWithNewModule xtend@2.1.2 checking installable status
+88 http fetch GET 304 https://registry.npmjs.org/cardinal 147ms (from cache)
+89 http fetch GET 304 https://registry.npmjs.org/marked 151ms (from cache)
+90 http fetch GET 304 https://registry.npmjs.org/nopt 159ms (from cache)
+91 silly pacote range manifest for cardinal@^0.5.0 fetched in 174ms
+92 silly resolveWithNewModule cardinal@0.5.0 checking installable status
+93 silly pacote range manifest for marked@~0.3.0 fetched in 177ms
+94 silly resolveWithNewModule marked@0.3.19 checking installable status
+95 silly pacote range manifest for nopt@~2.1.1 fetched in 179ms
+96 silly resolveWithNewModule nopt@2.1.2 checking installable status
+97 http fetch GET 304 https://registry.npmjs.org/redeyed 83ms (from cache)
+98 http fetch GET 304 https://registry.npmjs.org/ansicolors 88ms (from cache)
+99 silly pacote range manifest for redeyed@~0.5.0 fetched in 104ms
+100 silly resolveWithNewModule redeyed@0.5.0 checking installable status
+101 silly pacote range manifest for ansicolors@~0.2.1 fetched in 105ms
+102 silly resolveWithNewModule ansicolors@0.2.1 checking installable status
+103 http fetch GET 304 https://registry.npmjs.org/esprima-fb 62ms (from cache)
+104 silly pacote range manifest for esprima-fb@~12001.1.0-dev-harmony-fb fetched in 72ms
+105 silly resolveWithNewModule esprima-fb@12001.1.0-dev-harmony-fb checking installable status
+106 http fetch GET 304 https://registry.npmjs.org/abbrev 65ms (from cache)
+107 silly pacote range manifest for abbrev@1 fetched in 70ms
+108 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+109 http fetch GET 304 https://registry.npmjs.org/object-keys 73ms (from cache)
+110 silly pacote range manifest for object-keys@~0.4.0 fetched in 81ms
+111 silly resolveWithNewModule object-keys@0.4.0 checking installable status
+112 silly pacote range manifest for minimist@~0.0.1 fetched in 15ms
+113 silly resolveWithNewModule minimist@0.0.10 checking installable status
+114 http fetch GET 304 https://registry.npmjs.org/wordwrap 86ms (from cache)
+115 silly pacote range manifest for wordwrap@~0.0.2 fetched in 93ms
+116 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+117 http fetch GET 304 https://registry.npmjs.org/duplexer2 275ms (from cache)
+118 http fetch GET 304 https://registry.npmjs.org/resumer 277ms (from cache)
+119 http fetch GET 304 https://registry.npmjs.org/inherits 284ms (from cache)
+120 http fetch GET 304 https://registry.npmjs.org/charm 290ms (from cache)
+121 http fetch GET 304 https://registry.npmjs.org/through2 286ms (from cache)
+122 silly pacote version manifest for duplexer2@0.0.2 fetched in 300ms
+123 silly resolveWithNewModule duplexer2@0.0.2 checking installable status
+124 silly pacote range manifest for resumer@~0.0.0 fetched in 301ms
+125 silly resolveWithNewModule resumer@0.0.0 checking installable status
+126 silly pacote range manifest for inherits@~2.0.0 fetched in 305ms
+127 silly resolveWithNewModule inherits@2.0.4 checking installable status
+128 silly pacote range manifest for charm@~0.1.2 fetched in 312ms
+129 silly resolveWithNewModule charm@0.1.2 checking installable status
+130 silly pacote range manifest for through2@^0.6.3 fetched in 309ms
+131 silly resolveWithNewModule through2@0.6.5 checking installable status
+132 http fetch GET 304 https://registry.npmjs.org/readable-stream 153ms (from cache)
+133 silly pacote range manifest for readable-stream@~1.1.9 fetched in 165ms
+134 silly resolveWithNewModule readable-stream@1.1.14 checking installable status
+135 http fetch GET 304 https://registry.npmjs.org/core-util-is 113ms (from cache)
+136 http fetch GET 304 https://registry.npmjs.org/isarray 114ms (from cache)
+137 silly pacote range manifest for core-util-is@~1.0.0 fetched in 121ms
+138 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+139 silly pacote version manifest for isarray@0.0.1 fetched in 123ms
+140 silly resolveWithNewModule isarray@0.0.1 checking installable status
+141 http fetch GET 304 https://registry.npmjs.org/string_decoder 234ms (from cache)
+142 silly pacote range manifest for string_decoder@~0.10.x fetched in 241ms
+143 silly resolveWithNewModule string_decoder@0.10.31 checking installable status
+144 http fetch GET 304 https://registry.npmjs.org/through 68ms (from cache)
+145 silly pacote range manifest for through@~2.3.4 fetched in 75ms
+146 silly resolveWithNewModule through@2.3.8 checking installable status
+147 silly pacote range manifest for xtend@>=4.0.0 <4.1.0-0 fetched in 11ms
+148 silly resolveWithNewModule xtend@4.0.2 checking installable status
+149 silly pacote range manifest for readable-stream@>=1.0.33-1 <1.1.0-0 fetched in 14ms
+150 silly resolveWithNewModule readable-stream@1.0.34 checking installable status
+151 silly pacote range manifest for xtend@^4.0.1 fetched in 27ms
+152 silly resolveWithNewModule xtend@4.0.2 checking installable status
+153 silly pacote range manifest for chalk@^1.1.1 fetched in 44ms
+154 silly resolveWithNewModule chalk@1.1.3 checking installable status
+155 silly pacote range manifest for i18n-core@^2.1.1 fetched in 54ms
+156 silly resolveWithNewModule i18n-core@2.1.1 checking installable status
+157 silly pacote range manifest for through2@^2.0.0 fetched in 62ms
+158 silly resolveWithNewModule through2@2.0.5 checking installable status
+159 http fetch GET 304 https://registry.npmjs.org/split 152ms (from cache)
+160 http fetch GET 304 https://registry.npmjs.org/after 163ms (from cache)
+161 silly pacote range manifest for split@^1.0.0 fetched in 163ms
+162 silly resolveWithNewModule split@1.0.1 checking installable status
+163 silly pacote range manifest for after@~0.8.1 fetched in 209ms
+164 silly resolveWithNewModule after@0.8.2 checking installable status
+165 http fetch GET 304 https://registry.npmjs.org/tuple-stream 900ms (from cache)
+166 http fetch GET 304 https://registry.npmjs.org/wcstring 904ms (from cache)
+167 silly pacote version manifest for tuple-stream@0.0.2 fetched in 913ms
+168 silly resolveWithNewModule tuple-stream@0.0.2 checking installable status
+169 silly pacote range manifest for wcstring@^2.1.0 fetched in 914ms
+170 silly resolveWithNewModule wcstring@2.1.1 checking installable status
+171 silly pacote range manifest for ansi-styles@^2.2.1 fetched in 25ms
+172 silly resolveWithNewModule ansi-styles@2.2.1 checking installable status
+173 silly pacote range manifest for strip-ansi@^3.0.0 fetched in 32ms
+174 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+175 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 106ms (from cache)
+176 silly pacote range manifest for escape-string-regexp@^1.0.2 fetched in 115ms
+177 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+178 http fetch GET 304 https://registry.npmjs.org/supports-color 245ms (from cache)
+179 http fetch GET 304 https://registry.npmjs.org/has-ansi 263ms (from cache)
+180 silly pacote range manifest for supports-color@^2.0.0 fetched in 267ms
+181 silly resolveWithNewModule supports-color@2.0.0 checking installable status
+182 silly pacote range manifest for has-ansi@^2.0.0 fetched in 274ms
+183 silly resolveWithNewModule has-ansi@2.0.0 checking installable status
+184 http fetch GET 304 https://registry.npmjs.org/ansi-regex 57ms (from cache)
+185 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 67ms
+186 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+187 silly pacote range manifest for readable-stream@~2.3.6 fetched in 7ms
+188 silly resolveWithNewModule readable-stream@2.3.7 checking installable status
+189 silly pacote range manifest for string_decoder@~1.1.1 fetched in 22ms
+190 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+191 silly pacote range manifest for isarray@~1.0.0 fetched in 27ms
+192 silly resolveWithNewModule isarray@1.0.0 checking installable status
+193 http fetch GET 304 https://registry.npmjs.org/safe-buffer 136ms (from cache)
+194 http fetch GET 304 https://registry.npmjs.org/util-deprecate 142ms (from cache)
+195 http fetch GET 304 https://registry.npmjs.org/process-nextick-args 150ms (from cache)
+196 silly pacote range manifest for safe-buffer@~5.1.1 fetched in 151ms
+197 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+198 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 154ms
+199 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+200 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 160ms
+201 silly resolveWithNewModule process-nextick-args@2.0.1 checking installable status
+202 http fetch GET 304 https://registry.npmjs.org/wcsize 861ms (from cache)
+203 silly pacote range manifest for wcsize@^1.0.0 fetched in 872ms
+204 silly resolveWithNewModule wcsize@1.0.0 checking installable status
+205 http fetch GET 304 https://registry.npmjs.org/varsize-string 880ms (from cache)
+206 silly pacote range manifest for varsize-string@^2.2.1 fetched in 885ms
+207 silly resolveWithNewModule varsize-string@2.2.2 checking installable status
+208 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 6937ms
+209 timing stage:loadIdealTree Completed in 7064ms
+210 silly currentTree npm
+211 silly idealTree npm
+211 silly idealTree `-- functional-javascript-workshop@1.0.6
+211 silly idealTree   +-- abbrev@1.1.1
+211 silly idealTree   +-- after@0.8.2
+211 silly idealTree   +-- ansi-regex@2.1.1
+211 silly idealTree   +-- ansi-styles@1.0.0
+211 silly idealTree   +-- ansicolors@0.2.1
+211 silly idealTree   +-- cardinal@0.5.0
+211 silly idealTree   +-- chalk@0.4.0
+211 silly idealTree   +-- charm@0.1.2
+211 silly idealTree   +-- colors-tmpl@0.1.1
+211 silly idealTree   +-- colors@0.6.2
+211 silly idealTree   +-- core-util-is@1.0.2
+211 silly idealTree   +-- deep-eql@0.1.3
+211 silly idealTree   +-- duplexer2@0.0.2
+211 silly idealTree   +-- escape-string-regexp@1.0.5
+211 silly idealTree   +-- esprima-fb@12001.1.0-dev-harmony-fb
+211 silly idealTree   +-- has-ansi@2.0.0
+211 silly idealTree   +-- has-color@0.1.7
+211 silly idealTree   +-- i18n-core@1.3.3
+211 silly idealTree   +-- inherits@2.0.4
+211 silly idealTree   +-- isarray@0.0.1
+211 silly idealTree   +-- lorem-ipsum@1.0.6
+211 silly idealTree   +-- map-async@0.1.1
+211 silly idealTree   +-- marked@0.3.19
+211 silly idealTree   +-- minimist@1.2.5
+211 silly idealTree   +-- mkdirp@0.3.5
+211 silly idealTree   +-- msee@0.1.2
+211 silly idealTree   | `-- xtend@2.1.2
+211 silly idealTree   +-- mustache@0.8.2
+211 silly idealTree   +-- nopt@2.1.2
+211 silly idealTree   +-- object-keys@0.4.0
+211 silly idealTree   +-- optimist@0.6.1
+211 silly idealTree   | `-- minimist@0.0.10
+211 silly idealTree   +-- process-nextick-args@2.0.1
+211 silly idealTree   +-- readable-stream@1.1.14
+211 silly idealTree   +-- redeyed@0.5.0
+211 silly idealTree   +-- resumer@0.0.0
+211 silly idealTree   +-- safe-buffer@5.1.2
+211 silly idealTree   +-- split@1.0.1
+211 silly idealTree   +-- sprintf@0.1.5
+211 silly idealTree   +-- string_decoder@0.10.31
+211 silly idealTree   +-- strip-ansi@0.1.1
+211 silly idealTree   +-- supports-color@2.0.0
+211 silly idealTree   +-- terminal-menu@2.1.1
+211 silly idealTree   +-- through@2.3.8
+211 silly idealTree   +-- through2@0.6.5
+211 silly idealTree   | +-- readable-stream@1.0.34
+211 silly idealTree   | `-- xtend@4.0.2
+211 silly idealTree   +-- tuple-stream@0.0.2
+211 silly idealTree   +-- type-detect@0.1.1
+211 silly idealTree   +-- util-deprecate@1.0.2
+211 silly idealTree   +-- varsize-string@2.2.2
+211 silly idealTree   +-- visualwidth@0.0.1
+211 silly idealTree   +-- wcsize@1.0.0
+211 silly idealTree   +-- wcstring@2.1.1
+211 silly idealTree   +-- wordwrap@0.0.3
+211 silly idealTree   +-- workshopper-exercise@2.7.0
+211 silly idealTree   | +-- ansi-styles@2.2.1
+211 silly idealTree   | +-- chalk@1.1.3
+211 silly idealTree   | +-- i18n-core@2.1.1
+211 silly idealTree   | +-- isarray@1.0.0
+211 silly idealTree   | +-- readable-stream@2.3.7
+211 silly idealTree   | +-- string_decoder@1.1.1
+211 silly idealTree   | +-- strip-ansi@3.0.1
+211 silly idealTree   | +-- through2@2.0.5
+211 silly idealTree   | `-- xtend@4.0.2
+211 silly idealTree   +-- workshopper@2.7.0
+211 silly idealTree   `-- xtend@3.0.0
+212 silly install generateActionsToTake
+213 timing stage:generateActionsToTake Completed in 60ms
+214 silly diffTrees action count 68
+215 silly diffTrees add abbrev@1.1.1
+216 silly diffTrees add after@0.8.2
+217 silly diffTrees add ansi-regex@2.1.1
+218 silly diffTrees add ansi-styles@1.0.0
+219 silly diffTrees add ansicolors@0.2.1
+220 silly diffTrees add charm@0.1.2
+221 silly diffTrees add colors@0.6.2
+222 silly diffTrees add colors-tmpl@0.1.1
+223 silly diffTrees add core-util-is@1.0.2
+224 silly diffTrees add escape-string-regexp@1.0.5
+225 silly diffTrees add esprima-fb@12001.1.0-dev-harmony-fb
+226 silly diffTrees add has-ansi@2.0.0
+227 silly diffTrees add has-color@0.1.7
+228 silly diffTrees add inherits@2.0.4
+229 silly diffTrees add isarray@0.0.1
+230 silly diffTrees add map-async@0.1.1
+231 silly diffTrees add marked@0.3.19
+232 silly diffTrees add minimist@1.2.5
+233 silly diffTrees add mkdirp@0.3.5
+234 silly diffTrees add mustache@0.8.2
+235 silly diffTrees add nopt@2.1.2
+236 silly diffTrees add object-keys@0.4.0
+237 silly diffTrees add xtend@2.1.2
+238 silly diffTrees add minimist@0.0.10
+239 silly diffTrees add process-nextick-args@2.0.1
+240 silly diffTrees add redeyed@0.5.0
+241 silly diffTrees add cardinal@0.5.0
+242 silly diffTrees add safe-buffer@5.1.2
+243 silly diffTrees add sprintf@0.1.5
+244 silly diffTrees add i18n-core@1.3.3
+245 silly diffTrees add string_decoder@0.10.31
+246 silly diffTrees add readable-stream@1.1.14
+247 silly diffTrees add duplexer2@0.0.2
+248 silly diffTrees add strip-ansi@0.1.1
+249 silly diffTrees add chalk@0.4.0
+250 silly diffTrees add msee@0.1.2
+251 silly diffTrees add supports-color@2.0.0
+252 silly diffTrees add through@2.3.8
+253 silly diffTrees add resumer@0.0.0
+254 silly diffTrees add split@1.0.1
+255 silly diffTrees add readable-stream@1.0.34
+256 silly diffTrees add xtend@4.0.2
+257 silly diffTrees add through2@0.6.5
+258 silly diffTrees add tuple-stream@0.0.2
+259 silly diffTrees add type-detect@0.1.1
+260 silly diffTrees add util-deprecate@1.0.2
+261 silly diffTrees add varsize-string@2.2.2
+262 silly diffTrees add visualwidth@0.0.1
+263 silly diffTrees add terminal-menu@2.1.1
+264 silly diffTrees add wcsize@1.0.0
+265 silly diffTrees add wcstring@2.1.1
+266 silly diffTrees add wordwrap@0.0.3
+267 silly diffTrees add optimist@0.6.1
+268 silly diffTrees add ansi-styles@2.2.1
+269 silly diffTrees add i18n-core@2.1.1
+270 silly diffTrees add isarray@1.0.0
+271 silly diffTrees add string_decoder@1.1.1
+272 silly diffTrees add readable-stream@2.3.7
+273 silly diffTrees add strip-ansi@3.0.1
+274 silly diffTrees add chalk@1.1.3
+275 silly diffTrees add xtend@4.0.2
+276 silly diffTrees add through2@2.0.5
+277 silly diffTrees add xtend@3.0.0
+278 silly diffTrees add deep-eql@0.1.3
+279 silly diffTrees add lorem-ipsum@1.0.6
+280 silly diffTrees add workshopper@2.7.0
+281 silly diffTrees add workshopper-exercise@2.7.0
+282 silly diffTrees add functional-javascript-workshop@1.0.6
+283 silly decomposeActions action count 544
+284 silly decomposeActions fetch abbrev@1.1.1
+285 silly decomposeActions extract abbrev@1.1.1
+286 silly decomposeActions preinstall abbrev@1.1.1
+287 silly decomposeActions build abbrev@1.1.1
+288 silly decomposeActions install abbrev@1.1.1
+289 silly decomposeActions postinstall abbrev@1.1.1
+290 silly decomposeActions finalize abbrev@1.1.1
+291 silly decomposeActions refresh-package-json abbrev@1.1.1
+292 silly decomposeActions fetch after@0.8.2
+293 silly decomposeActions extract after@0.8.2
+294 silly decomposeActions preinstall after@0.8.2
+295 silly decomposeActions build after@0.8.2
+296 silly decomposeActions install after@0.8.2
+297 silly decomposeActions postinstall after@0.8.2
+298 silly decomposeActions finalize after@0.8.2
+299 silly decomposeActions refresh-package-json after@0.8.2
+300 silly decomposeActions fetch ansi-regex@2.1.1
+301 silly decomposeActions extract ansi-regex@2.1.1
+302 silly decomposeActions preinstall ansi-regex@2.1.1
+303 silly decomposeActions build ansi-regex@2.1.1
+304 silly decomposeActions install ansi-regex@2.1.1
+305 silly decomposeActions postinstall ansi-regex@2.1.1
+306 silly decomposeActions finalize ansi-regex@2.1.1
+307 silly decomposeActions refresh-package-json ansi-regex@2.1.1
+308 silly decomposeActions fetch ansi-styles@1.0.0
+309 silly decomposeActions extract ansi-styles@1.0.0
+310 silly decomposeActions preinstall ansi-styles@1.0.0
+311 silly decomposeActions build ansi-styles@1.0.0
+312 silly decomposeActions install ansi-styles@1.0.0
+313 silly decomposeActions postinstall ansi-styles@1.0.0
+314 silly decomposeActions finalize ansi-styles@1.0.0
+315 silly decomposeActions refresh-package-json ansi-styles@1.0.0
+316 silly decomposeActions fetch ansicolors@0.2.1
+317 silly decomposeActions extract ansicolors@0.2.1
+318 silly decomposeActions preinstall ansicolors@0.2.1
+319 silly decomposeActions build ansicolors@0.2.1
+320 silly decomposeActions install ansicolors@0.2.1
+321 silly decomposeActions postinstall ansicolors@0.2.1
+322 silly decomposeActions finalize ansicolors@0.2.1
+323 silly decomposeActions refresh-package-json ansicolors@0.2.1
+324 silly decomposeActions fetch charm@0.1.2
+325 silly decomposeActions extract charm@0.1.2
+326 silly decomposeActions preinstall charm@0.1.2
+327 silly decomposeActions build charm@0.1.2
+328 silly decomposeActions install charm@0.1.2
+329 silly decomposeActions postinstall charm@0.1.2
+330 silly decomposeActions finalize charm@0.1.2
+331 silly decomposeActions refresh-package-json charm@0.1.2
+332 silly decomposeActions fetch colors@0.6.2
+333 silly decomposeActions extract colors@0.6.2
+334 silly decomposeActions preinstall colors@0.6.2
+335 silly decomposeActions build colors@0.6.2
+336 silly decomposeActions install colors@0.6.2
+337 silly decomposeActions postinstall colors@0.6.2
+338 silly decomposeActions finalize colors@0.6.2
+339 silly decomposeActions refresh-package-json colors@0.6.2
+340 silly decomposeActions fetch colors-tmpl@0.1.1
+341 silly decomposeActions extract colors-tmpl@0.1.1
+342 silly decomposeActions preinstall colors-tmpl@0.1.1
+343 silly decomposeActions build colors-tmpl@0.1.1
+344 silly decomposeActions install colors-tmpl@0.1.1
+345 silly decomposeActions postinstall colors-tmpl@0.1.1
+346 silly decomposeActions finalize colors-tmpl@0.1.1
+347 silly decomposeActions refresh-package-json colors-tmpl@0.1.1
+348 silly decomposeActions fetch core-util-is@1.0.2
+349 silly decomposeActions extract core-util-is@1.0.2
+350 silly decomposeActions preinstall core-util-is@1.0.2
+351 silly decomposeActions build core-util-is@1.0.2
+352 silly decomposeActions install core-util-is@1.0.2
+353 silly decomposeActions postinstall core-util-is@1.0.2
+354 silly decomposeActions finalize core-util-is@1.0.2
+355 silly decomposeActions refresh-package-json core-util-is@1.0.2
+356 silly decomposeActions fetch escape-string-regexp@1.0.5
+357 silly decomposeActions extract escape-string-regexp@1.0.5
+358 silly decomposeActions preinstall escape-string-regexp@1.0.5
+359 silly decomposeActions build escape-string-regexp@1.0.5
+360 silly decomposeActions install escape-string-regexp@1.0.5
+361 silly decomposeActions postinstall escape-string-regexp@1.0.5
+362 silly decomposeActions finalize escape-string-regexp@1.0.5
+363 silly decomposeActions refresh-package-json escape-string-regexp@1.0.5
+364 silly decomposeActions fetch esprima-fb@12001.1.0-dev-harmony-fb
+365 silly decomposeActions extract esprima-fb@12001.1.0-dev-harmony-fb
+366 silly decomposeActions preinstall esprima-fb@12001.1.0-dev-harmony-fb
+367 silly decomposeActions build esprima-fb@12001.1.0-dev-harmony-fb
+368 silly decomposeActions install esprima-fb@12001.1.0-dev-harmony-fb
+369 silly decomposeActions postinstall esprima-fb@12001.1.0-dev-harmony-fb
+370 silly decomposeActions finalize esprima-fb@12001.1.0-dev-harmony-fb
+371 silly decomposeActions refresh-package-json esprima-fb@12001.1.0-dev-harmony-fb
+372 silly decomposeActions fetch has-ansi@2.0.0
+373 silly decomposeActions extract has-ansi@2.0.0
+374 silly decomposeActions preinstall has-ansi@2.0.0
+375 silly decomposeActions build has-ansi@2.0.0
+376 silly decomposeActions install has-ansi@2.0.0
+377 silly decomposeActions postinstall has-ansi@2.0.0
+378 silly decomposeActions finalize has-ansi@2.0.0
+379 silly decomposeActions refresh-package-json has-ansi@2.0.0
+380 silly decomposeActions fetch has-color@0.1.7
+381 silly decomposeActions extract has-color@0.1.7
+382 silly decomposeActions preinstall has-color@0.1.7
+383 silly decomposeActions build has-color@0.1.7
+384 silly decomposeActions install has-color@0.1.7
+385 silly decomposeActions postinstall has-color@0.1.7
+386 silly decomposeActions finalize has-color@0.1.7
+387 silly decomposeActions refresh-package-json has-color@0.1.7
+388 silly decomposeActions fetch inherits@2.0.4
+389 silly decomposeActions extract inherits@2.0.4
+390 silly decomposeActions preinstall inherits@2.0.4
+391 silly decomposeActions build inherits@2.0.4
+392 silly decomposeActions install inherits@2.0.4
+393 silly decomposeActions postinstall inherits@2.0.4
+394 silly decomposeActions finalize inherits@2.0.4
+395 silly decomposeActions refresh-package-json inherits@2.0.4
+396 silly decomposeActions fetch isarray@0.0.1
+397 silly decomposeActions extract isarray@0.0.1
+398 silly decomposeActions preinstall isarray@0.0.1
+399 silly decomposeActions build isarray@0.0.1
+400 silly decomposeActions install isarray@0.0.1
+401 silly decomposeActions postinstall isarray@0.0.1
+402 silly decomposeActions finalize isarray@0.0.1
+403 silly decomposeActions refresh-package-json isarray@0.0.1
+404 silly decomposeActions fetch map-async@0.1.1
+405 silly decomposeActions extract map-async@0.1.1
+406 silly decomposeActions preinstall map-async@0.1.1
+407 silly decomposeActions build map-async@0.1.1
+408 silly decomposeActions install map-async@0.1.1
+409 silly decomposeActions postinstall map-async@0.1.1
+410 silly decomposeActions finalize map-async@0.1.1
+411 silly decomposeActions refresh-package-json map-async@0.1.1
+412 silly decomposeActions fetch marked@0.3.19
+413 silly decomposeActions extract marked@0.3.19
+414 silly decomposeActions preinstall marked@0.3.19
+415 silly decomposeActions build marked@0.3.19
+416 silly decomposeActions install marked@0.3.19
+417 silly decomposeActions postinstall marked@0.3.19
+418 silly decomposeActions finalize marked@0.3.19
+419 silly decomposeActions refresh-package-json marked@0.3.19
+420 silly decomposeActions fetch minimist@1.2.5
+421 silly decomposeActions extract minimist@1.2.5
+422 silly decomposeActions preinstall minimist@1.2.5
+423 silly decomposeActions build minimist@1.2.5
+424 silly decomposeActions install minimist@1.2.5
+425 silly decomposeActions postinstall minimist@1.2.5
+426 silly decomposeActions finalize minimist@1.2.5
+427 silly decomposeActions refresh-package-json minimist@1.2.5
+428 silly decomposeActions fetch mkdirp@0.3.5
+429 silly decomposeActions extract mkdirp@0.3.5
+430 silly decomposeActions preinstall mkdirp@0.3.5
+431 silly decomposeActions build mkdirp@0.3.5
+432 silly decomposeActions install mkdirp@0.3.5
+433 silly decomposeActions postinstall mkdirp@0.3.5
+434 silly decomposeActions finalize mkdirp@0.3.5
+435 silly decomposeActions refresh-package-json mkdirp@0.3.5
+436 silly decomposeActions fetch mustache@0.8.2
+437 silly decomposeActions extract mustache@0.8.2
+438 silly decomposeActions preinstall mustache@0.8.2
+439 silly decomposeActions build mustache@0.8.2
+440 silly decomposeActions install mustache@0.8.2
+441 silly decomposeActions postinstall mustache@0.8.2
+442 silly decomposeActions finalize mustache@0.8.2
+443 silly decomposeActions refresh-package-json mustache@0.8.2
+444 silly decomposeActions fetch nopt@2.1.2
+445 silly decomposeActions extract nopt@2.1.2
+446 silly decomposeActions preinstall nopt@2.1.2
+447 silly decomposeActions build nopt@2.1.2
+448 silly decomposeActions install nopt@2.1.2
+449 silly decomposeActions postinstall nopt@2.1.2
+450 silly decomposeActions finalize nopt@2.1.2
+451 silly decomposeActions refresh-package-json nopt@2.1.2
+452 silly decomposeActions fetch object-keys@0.4.0
+453 silly decomposeActions extract object-keys@0.4.0
+454 silly decomposeActions preinstall object-keys@0.4.0
+455 silly decomposeActions build object-keys@0.4.0
+456 silly decomposeActions install object-keys@0.4.0
+457 silly decomposeActions postinstall object-keys@0.4.0
+458 silly decomposeActions finalize object-keys@0.4.0
+459 silly decomposeActions refresh-package-json object-keys@0.4.0
+460 silly decomposeActions fetch xtend@2.1.2
+461 silly decomposeActions extract xtend@2.1.2
+462 silly decomposeActions preinstall xtend@2.1.2
+463 silly decomposeActions build xtend@2.1.2
+464 silly decomposeActions install xtend@2.1.2
+465 silly decomposeActions postinstall xtend@2.1.2
+466 silly decomposeActions finalize xtend@2.1.2
+467 silly decomposeActions refresh-package-json xtend@2.1.2
+468 silly decomposeActions fetch minimist@0.0.10
+469 silly decomposeActions extract minimist@0.0.10
+470 silly decomposeActions preinstall minimist@0.0.10
+471 silly decomposeActions build minimist@0.0.10
+472 silly decomposeActions install minimist@0.0.10
+473 silly decomposeActions postinstall minimist@0.0.10
+474 silly decomposeActions finalize minimist@0.0.10
+475 silly decomposeActions refresh-package-json minimist@0.0.10
+476 silly decomposeActions fetch process-nextick-args@2.0.1
+477 silly decomposeActions extract process-nextick-args@2.0.1
+478 silly decomposeActions preinstall process-nextick-args@2.0.1
+479 silly decomposeActions build process-nextick-args@2.0.1
+480 silly decomposeActions install process-nextick-args@2.0.1
+481 silly decomposeActions postinstall process-nextick-args@2.0.1
+482 silly decomposeActions finalize process-nextick-args@2.0.1
+483 silly decomposeActions refresh-package-json process-nextick-args@2.0.1
+484 silly decomposeActions fetch redeyed@0.5.0
+485 silly decomposeActions extract redeyed@0.5.0
+486 silly decomposeActions preinstall redeyed@0.5.0
+487 silly decomposeActions build redeyed@0.5.0
+488 silly decomposeActions install redeyed@0.5.0
+489 silly decomposeActions postinstall redeyed@0.5.0
+490 silly decomposeActions finalize redeyed@0.5.0
+491 silly decomposeActions refresh-package-json redeyed@0.5.0
+492 silly decomposeActions fetch cardinal@0.5.0
+493 silly decomposeActions extract cardinal@0.5.0
+494 silly decomposeActions preinstall cardinal@0.5.0
+495 silly decomposeActions build cardinal@0.5.0
+496 silly decomposeActions install cardinal@0.5.0
+497 silly decomposeActions postinstall cardinal@0.5.0
+498 silly decomposeActions finalize cardinal@0.5.0
+499 silly decomposeActions refresh-package-json cardinal@0.5.0
+500 silly decomposeActions fetch safe-buffer@5.1.2
+501 silly decomposeActions extract safe-buffer@5.1.2
+502 silly decomposeActions preinstall safe-buffer@5.1.2
+503 silly decomposeActions build safe-buffer@5.1.2
+504 silly decomposeActions install safe-buffer@5.1.2
+505 silly decomposeActions postinstall safe-buffer@5.1.2
+506 silly decomposeActions finalize safe-buffer@5.1.2
+507 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+508 silly decomposeActions fetch sprintf@0.1.5
+509 silly decomposeActions extract sprintf@0.1.5
+510 silly decomposeActions preinstall sprintf@0.1.5
+511 silly decomposeActions build sprintf@0.1.5
+512 silly decomposeActions install sprintf@0.1.5
+513 silly decomposeActions postinstall sprintf@0.1.5
+514 silly decomposeActions finalize sprintf@0.1.5
+515 silly decomposeActions refresh-package-json sprintf@0.1.5
+516 silly decomposeActions fetch i18n-core@1.3.3
+517 silly decomposeActions extract i18n-core@1.3.3
+518 silly decomposeActions preinstall i18n-core@1.3.3
+519 silly decomposeActions build i18n-core@1.3.3
+520 silly decomposeActions install i18n-core@1.3.3
+521 silly decomposeActions postinstall i18n-core@1.3.3
+522 silly decomposeActions finalize i18n-core@1.3.3
+523 silly decomposeActions refresh-package-json i18n-core@1.3.3
+524 silly decomposeActions fetch string_decoder@0.10.31
+525 silly decomposeActions extract string_decoder@0.10.31
+526 silly decomposeActions preinstall string_decoder@0.10.31
+527 silly decomposeActions build string_decoder@0.10.31
+528 silly decomposeActions install string_decoder@0.10.31
+529 silly decomposeActions postinstall string_decoder@0.10.31
+530 silly decomposeActions finalize string_decoder@0.10.31
+531 silly decomposeActions refresh-package-json string_decoder@0.10.31
+532 silly decomposeActions fetch readable-stream@1.1.14
+533 silly decomposeActions extract readable-stream@1.1.14
+534 silly decomposeActions preinstall readable-stream@1.1.14
+535 silly decomposeActions build readable-stream@1.1.14
+536 silly decomposeActions install readable-stream@1.1.14
+537 silly decomposeActions postinstall readable-stream@1.1.14
+538 silly decomposeActions finalize readable-stream@1.1.14
+539 silly decomposeActions refresh-package-json readable-stream@1.1.14
+540 silly decomposeActions fetch duplexer2@0.0.2
+541 silly decomposeActions extract duplexer2@0.0.2
+542 silly decomposeActions preinstall duplexer2@0.0.2
+543 silly decomposeActions build duplexer2@0.0.2
+544 silly decomposeActions install duplexer2@0.0.2
+545 silly decomposeActions postinstall duplexer2@0.0.2
+546 silly decomposeActions finalize duplexer2@0.0.2
+547 silly decomposeActions refresh-package-json duplexer2@0.0.2
+548 silly decomposeActions fetch strip-ansi@0.1.1
+549 silly decomposeActions extract strip-ansi@0.1.1
+550 silly decomposeActions preinstall strip-ansi@0.1.1
+551 silly decomposeActions build strip-ansi@0.1.1
+552 silly decomposeActions install strip-ansi@0.1.1
+553 silly decomposeActions postinstall strip-ansi@0.1.1
+554 silly decomposeActions finalize strip-ansi@0.1.1
+555 silly decomposeActions refresh-package-json strip-ansi@0.1.1
+556 silly decomposeActions fetch chalk@0.4.0
+557 silly decomposeActions extract chalk@0.4.0
+558 silly decomposeActions preinstall chalk@0.4.0
+559 silly decomposeActions build chalk@0.4.0
+560 silly decomposeActions install chalk@0.4.0
+561 silly decomposeActions postinstall chalk@0.4.0
+562 silly decomposeActions finalize chalk@0.4.0
+563 silly decomposeActions refresh-package-json chalk@0.4.0
+564 silly decomposeActions fetch msee@0.1.2
+565 silly decomposeActions extract msee@0.1.2
+566 silly decomposeActions preinstall msee@0.1.2
+567 silly decomposeActions build msee@0.1.2
+568 silly decomposeActions install msee@0.1.2
+569 silly decomposeActions postinstall msee@0.1.2
+570 silly decomposeActions finalize msee@0.1.2
+571 silly decomposeActions refresh-package-json msee@0.1.2
+572 silly decomposeActions fetch supports-color@2.0.0
+573 silly decomposeActions extract supports-color@2.0.0
+574 silly decomposeActions preinstall supports-color@2.0.0
+575 silly decomposeActions build supports-color@2.0.0
+576 silly decomposeActions install supports-color@2.0.0
+577 silly decomposeActions postinstall supports-color@2.0.0
+578 silly decomposeActions finalize supports-color@2.0.0
+579 silly decomposeActions refresh-package-json supports-color@2.0.0
+580 silly decomposeActions fetch through@2.3.8
+581 silly decomposeActions extract through@2.3.8
+582 silly decomposeActions preinstall through@2.3.8
+583 silly decomposeActions build through@2.3.8
+584 silly decomposeActions install through@2.3.8
+585 silly decomposeActions postinstall through@2.3.8
+586 silly decomposeActions finalize through@2.3.8
+587 silly decomposeActions refresh-package-json through@2.3.8
+588 silly decomposeActions fetch resumer@0.0.0
+589 silly decomposeActions extract resumer@0.0.0
+590 silly decomposeActions preinstall resumer@0.0.0
+591 silly decomposeActions build resumer@0.0.0
+592 silly decomposeActions install resumer@0.0.0
+593 silly decomposeActions postinstall resumer@0.0.0
+594 silly decomposeActions finalize resumer@0.0.0
+595 silly decomposeActions refresh-package-json resumer@0.0.0
+596 silly decomposeActions fetch split@1.0.1
+597 silly decomposeActions extract split@1.0.1
+598 silly decomposeActions preinstall split@1.0.1
+599 silly decomposeActions build split@1.0.1
+600 silly decomposeActions install split@1.0.1
+601 silly decomposeActions postinstall split@1.0.1
+602 silly decomposeActions finalize split@1.0.1
+603 silly decomposeActions refresh-package-json split@1.0.1
+604 silly decomposeActions fetch readable-stream@1.0.34
+605 silly decomposeActions extract readable-stream@1.0.34
+606 silly decomposeActions preinstall readable-stream@1.0.34
+607 silly decomposeActions build readable-stream@1.0.34
+608 silly decomposeActions install readable-stream@1.0.34
+609 silly decomposeActions postinstall readable-stream@1.0.34
+610 silly decomposeActions finalize readable-stream@1.0.34
+611 silly decomposeActions refresh-package-json readable-stream@1.0.34
+612 silly decomposeActions fetch xtend@4.0.2
+613 silly decomposeActions extract xtend@4.0.2
+614 silly decomposeActions preinstall xtend@4.0.2
+615 silly decomposeActions build xtend@4.0.2
+616 silly decomposeActions install xtend@4.0.2
+617 silly decomposeActions postinstall xtend@4.0.2
+618 silly decomposeActions finalize xtend@4.0.2
+619 silly decomposeActions refresh-package-json xtend@4.0.2
+620 silly decomposeActions fetch through2@0.6.5
+621 silly decomposeActions extract through2@0.6.5
+622 silly decomposeActions preinstall through2@0.6.5
+623 silly decomposeActions build through2@0.6.5
+624 silly decomposeActions install through2@0.6.5
+625 silly decomposeActions postinstall through2@0.6.5
+626 silly decomposeActions finalize through2@0.6.5
+627 silly decomposeActions refresh-package-json through2@0.6.5
+628 silly decomposeActions fetch tuple-stream@0.0.2
+629 silly decomposeActions extract tuple-stream@0.0.2
+630 silly decomposeActions preinstall tuple-stream@0.0.2
+631 silly decomposeActions build tuple-stream@0.0.2
+632 silly decomposeActions install tuple-stream@0.0.2
+633 silly decomposeActions postinstall tuple-stream@0.0.2
+634 silly decomposeActions finalize tuple-stream@0.0.2
+635 silly decomposeActions refresh-package-json tuple-stream@0.0.2
+636 silly decomposeActions fetch type-detect@0.1.1
+637 silly decomposeActions extract type-detect@0.1.1
+638 silly decomposeActions preinstall type-detect@0.1.1
+639 silly decomposeActions build type-detect@0.1.1
+640 silly decomposeActions install type-detect@0.1.1
+641 silly decomposeActions postinstall type-detect@0.1.1
+642 silly decomposeActions finalize type-detect@0.1.1
+643 silly decomposeActions refresh-package-json type-detect@0.1.1
+644 silly decomposeActions fetch util-deprecate@1.0.2
+645 silly decomposeActions extract util-deprecate@1.0.2
+646 silly decomposeActions preinstall util-deprecate@1.0.2
+647 silly decomposeActions build util-deprecate@1.0.2
+648 silly decomposeActions install util-deprecate@1.0.2
+649 silly decomposeActions postinstall util-deprecate@1.0.2
+650 silly decomposeActions finalize util-deprecate@1.0.2
+651 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+652 silly decomposeActions fetch varsize-string@2.2.2
+653 silly decomposeActions extract varsize-string@2.2.2
+654 silly decomposeActions preinstall varsize-string@2.2.2
+655 silly decomposeActions build varsize-string@2.2.2
+656 silly decomposeActions install varsize-string@2.2.2
+657 silly decomposeActions postinstall varsize-string@2.2.2
+658 silly decomposeActions finalize varsize-string@2.2.2
+659 silly decomposeActions refresh-package-json varsize-string@2.2.2
+660 silly decomposeActions fetch visualwidth@0.0.1
+661 silly decomposeActions extract visualwidth@0.0.1
+662 silly decomposeActions preinstall visualwidth@0.0.1
+663 silly decomposeActions build visualwidth@0.0.1
+664 silly decomposeActions install visualwidth@0.0.1
+665 silly decomposeActions postinstall visualwidth@0.0.1
+666 silly decomposeActions finalize visualwidth@0.0.1
+667 silly decomposeActions refresh-package-json visualwidth@0.0.1
+668 silly decomposeActions fetch terminal-menu@2.1.1
+669 silly decomposeActions extract terminal-menu@2.1.1
+670 silly decomposeActions preinstall terminal-menu@2.1.1
+671 silly decomposeActions build terminal-menu@2.1.1
+672 silly decomposeActions install terminal-menu@2.1.1
+673 silly decomposeActions postinstall terminal-menu@2.1.1
+674 silly decomposeActions finalize terminal-menu@2.1.1
+675 silly decomposeActions refresh-package-json terminal-menu@2.1.1
+676 silly decomposeActions fetch wcsize@1.0.0
+677 silly decomposeActions extract wcsize@1.0.0
+678 silly decomposeActions preinstall wcsize@1.0.0
+679 silly decomposeActions build wcsize@1.0.0
+680 silly decomposeActions install wcsize@1.0.0
+681 silly decomposeActions postinstall wcsize@1.0.0
+682 silly decomposeActions finalize wcsize@1.0.0
+683 silly decomposeActions refresh-package-json wcsize@1.0.0
+684 silly decomposeActions fetch wcstring@2.1.1
+685 silly decomposeActions extract wcstring@2.1.1
+686 silly decomposeActions preinstall wcstring@2.1.1
+687 silly decomposeActions build wcstring@2.1.1
+688 silly decomposeActions install wcstring@2.1.1
+689 silly decomposeActions postinstall wcstring@2.1.1
+690 silly decomposeActions finalize wcstring@2.1.1
+691 silly decomposeActions refresh-package-json wcstring@2.1.1
+692 silly decomposeActions fetch wordwrap@0.0.3
+693 silly decomposeActions extract wordwrap@0.0.3
+694 silly decomposeActions preinstall wordwrap@0.0.3
+695 silly decomposeActions build wordwrap@0.0.3
+696 silly decomposeActions install wordwrap@0.0.3
+697 silly decomposeActions postinstall wordwrap@0.0.3
+698 silly decomposeActions finalize wordwrap@0.0.3
+699 silly decomposeActions refresh-package-json wordwrap@0.0.3
+700 silly decomposeActions fetch optimist@0.6.1
+701 silly decomposeActions extract optimist@0.6.1
+702 silly decomposeActions preinstall optimist@0.6.1
+703 silly decomposeActions build optimist@0.6.1
+704 silly decomposeActions install optimist@0.6.1
+705 silly decomposeActions postinstall optimist@0.6.1
+706 silly decomposeActions finalize optimist@0.6.1
+707 silly decomposeActions refresh-package-json optimist@0.6.1
+708 silly decomposeActions fetch ansi-styles@2.2.1
+709 silly decomposeActions extract ansi-styles@2.2.1
+710 silly decomposeActions preinstall ansi-styles@2.2.1
+711 silly decomposeActions build ansi-styles@2.2.1
+712 silly decomposeActions install ansi-styles@2.2.1
+713 silly decomposeActions postinstall ansi-styles@2.2.1
+714 silly decomposeActions finalize ansi-styles@2.2.1
+715 silly decomposeActions refresh-package-json ansi-styles@2.2.1
+716 silly decomposeActions fetch i18n-core@2.1.1
+717 silly decomposeActions extract i18n-core@2.1.1
+718 silly decomposeActions preinstall i18n-core@2.1.1
+719 silly decomposeActions build i18n-core@2.1.1
+720 silly decomposeActions install i18n-core@2.1.1
+721 silly decomposeActions postinstall i18n-core@2.1.1
+722 silly decomposeActions finalize i18n-core@2.1.1
+723 silly decomposeActions refresh-package-json i18n-core@2.1.1
+724 silly decomposeActions fetch isarray@1.0.0
+725 silly decomposeActions extract isarray@1.0.0
+726 silly decomposeActions preinstall isarray@1.0.0
+727 silly decomposeActions build isarray@1.0.0
+728 silly decomposeActions install isarray@1.0.0
+729 silly decomposeActions postinstall isarray@1.0.0
+730 silly decomposeActions finalize isarray@1.0.0
+731 silly decomposeActions refresh-package-json isarray@1.0.0
+732 silly decomposeActions fetch string_decoder@1.1.1
+733 silly decomposeActions extract string_decoder@1.1.1
+734 silly decomposeActions preinstall string_decoder@1.1.1
+735 silly decomposeActions build string_decoder@1.1.1
+736 silly decomposeActions install string_decoder@1.1.1
+737 silly decomposeActions postinstall string_decoder@1.1.1
+738 silly decomposeActions finalize string_decoder@1.1.1
+739 silly decomposeActions refresh-package-json string_decoder@1.1.1
+740 silly decomposeActions fetch readable-stream@2.3.7
+741 silly decomposeActions extract readable-stream@2.3.7
+742 silly decomposeActions preinstall readable-stream@2.3.7
+743 silly decomposeActions build readable-stream@2.3.7
+744 silly decomposeActions install readable-stream@2.3.7
+745 silly decomposeActions postinstall readable-stream@2.3.7
+746 silly decomposeActions finalize readable-stream@2.3.7
+747 silly decomposeActions refresh-package-json readable-stream@2.3.7
+748 silly decomposeActions fetch strip-ansi@3.0.1
+749 silly decomposeActions extract strip-ansi@3.0.1
+750 silly decomposeActions preinstall strip-ansi@3.0.1
+751 silly decomposeActions build strip-ansi@3.0.1
+752 silly decomposeActions install strip-ansi@3.0.1
+753 silly decomposeActions postinstall strip-ansi@3.0.1
+754 silly decomposeActions finalize strip-ansi@3.0.1
+755 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+756 silly decomposeActions fetch chalk@1.1.3
+757 silly decomposeActions extract chalk@1.1.3
+758 silly decomposeActions preinstall chalk@1.1.3
+759 silly decomposeActions build chalk@1.1.3
+760 silly decomposeActions install chalk@1.1.3
+761 silly decomposeActions postinstall chalk@1.1.3
+762 silly decomposeActions finalize chalk@1.1.3
+763 silly decomposeActions refresh-package-json chalk@1.1.3
+764 silly decomposeActions fetch xtend@4.0.2
+765 silly decomposeActions extract xtend@4.0.2
+766 silly decomposeActions preinstall xtend@4.0.2
+767 silly decomposeActions build xtend@4.0.2
+768 silly decomposeActions install xtend@4.0.2
+769 silly decomposeActions postinstall xtend@4.0.2
+770 silly decomposeActions finalize xtend@4.0.2
+771 silly decomposeActions refresh-package-json xtend@4.0.2
+772 silly decomposeActions fetch through2@2.0.5
+773 silly decomposeActions extract through2@2.0.5
+774 silly decomposeActions preinstall through2@2.0.5
+775 silly decomposeActions build through2@2.0.5
+776 silly decomposeActions install through2@2.0.5
+777 silly decomposeActions postinstall through2@2.0.5
+778 silly decomposeActions finalize through2@2.0.5
+779 silly decomposeActions refresh-package-json through2@2.0.5
+780 silly decomposeActions fetch xtend@3.0.0
+781 silly decomposeActions extract xtend@3.0.0
+782 silly decomposeActions preinstall xtend@3.0.0
+783 silly decomposeActions build xtend@3.0.0
+784 silly decomposeActions install xtend@3.0.0
+785 silly decomposeActions postinstall xtend@3.0.0
+786 silly decomposeActions finalize xtend@3.0.0
+787 silly decomposeActions refresh-package-json xtend@3.0.0
+788 silly decomposeActions fetch deep-eql@0.1.3
+789 silly decomposeActions extract deep-eql@0.1.3
+790 silly decomposeActions preinstall deep-eql@0.1.3
+791 silly decomposeActions build deep-eql@0.1.3
+792 silly decomposeActions install deep-eql@0.1.3
+793 silly decomposeActions postinstall deep-eql@0.1.3
+794 silly decomposeActions finalize deep-eql@0.1.3
+795 silly decomposeActions refresh-package-json deep-eql@0.1.3
+796 silly decomposeActions fetch lorem-ipsum@1.0.6
+797 silly decomposeActions extract lorem-ipsum@1.0.6
+798 silly decomposeActions preinstall lorem-ipsum@1.0.6
+799 silly decomposeActions build lorem-ipsum@1.0.6
+800 silly decomposeActions install lorem-ipsum@1.0.6
+801 silly decomposeActions postinstall lorem-ipsum@1.0.6
+802 silly decomposeActions finalize lorem-ipsum@1.0.6
+803 silly decomposeActions refresh-package-json lorem-ipsum@1.0.6
+804 silly decomposeActions fetch workshopper@2.7.0
+805 silly decomposeActions extract workshopper@2.7.0
+806 silly decomposeActions preinstall workshopper@2.7.0
+807 silly decomposeActions build workshopper@2.7.0
+808 silly decomposeActions install workshopper@2.7.0
+809 silly decomposeActions postinstall workshopper@2.7.0
+810 silly decomposeActions finalize workshopper@2.7.0
+811 silly decomposeActions refresh-package-json workshopper@2.7.0
+812 silly decomposeActions fetch workshopper-exercise@2.7.0
+813 silly decomposeActions extract workshopper-exercise@2.7.0
+814 silly decomposeActions preinstall workshopper-exercise@2.7.0
+815 silly decomposeActions build workshopper-exercise@2.7.0
+816 silly decomposeActions install workshopper-exercise@2.7.0
+817 silly decomposeActions postinstall workshopper-exercise@2.7.0
+818 silly decomposeActions finalize workshopper-exercise@2.7.0
+819 silly decomposeActions refresh-package-json workshopper-exercise@2.7.0
+820 silly decomposeActions fetch functional-javascript-workshop@1.0.6
+821 silly decomposeActions extract functional-javascript-workshop@1.0.6
+822 silly decomposeActions preinstall functional-javascript-workshop@1.0.6
+823 silly decomposeActions build functional-javascript-workshop@1.0.6
+824 silly decomposeActions install functional-javascript-workshop@1.0.6
+825 silly decomposeActions postinstall functional-javascript-workshop@1.0.6
+826 silly decomposeActions finalize functional-javascript-workshop@1.0.6
+827 silly decomposeActions refresh-package-json functional-javascript-workshop@1.0.6
+828 silly install executeActions
+829 silly doSerial global-install 544
+830 verbose correctMkdir C:\Users\surface\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+831 verbose makeCacheDir UID & GID are irrelevant on win32
+832 verbose lock using C:\Users\surface\AppData\Roaming\npm-cache\_locks\staging-d81fcc79e0fe4f8c.lock for C:\Users\surface\AppData\Roaming\npm\node_modules\.staging
+833 silly doParallel extract 68
+834 silly extract abbrev@1.1.1
+835 silly extract after@0.8.2
+836 silly extract ansi-regex@2.1.1
+837 silly extract ansi-styles@1.0.0
+838 silly extract ansicolors@0.2.1
+839 silly extract charm@0.1.2
+840 silly extract colors@0.6.2
+841 silly extract colors-tmpl@0.1.1
+842 silly extract core-util-is@1.0.2
+843 silly extract escape-string-regexp@1.0.5
+844 silly extract esprima-fb@12001.1.0-dev-harmony-fb
+845 silly extract has-ansi@2.0.0
+846 silly extract has-color@0.1.7
+847 silly extract inherits@2.0.4
+848 silly extract isarray@0.0.1
+849 silly extract map-async@0.1.1
+850 silly extract marked@0.3.19
+851 silly extract minimist@1.2.5
+852 silly extract mkdirp@0.3.5
+853 silly extract mustache@0.8.2
+854 silly extract nopt@2.1.2
+855 silly extract object-keys@0.4.0
+856 silly extract xtend@2.1.2
+857 silly extract minimist@0.0.10
+858 silly extract process-nextick-args@2.0.1
+859 silly extract redeyed@0.5.0
+860 silly extract cardinal@0.5.0
+861 silly extract safe-buffer@5.1.2
+862 silly extract sprintf@0.1.5
+863 silly extract i18n-core@1.3.3
+864 silly extract string_decoder@0.10.31
+865 silly extract readable-stream@1.1.14
+866 silly extract duplexer2@0.0.2
+867 silly extract strip-ansi@0.1.1
+868 silly extract chalk@0.4.0
+869 silly extract msee@0.1.2
+870 silly extract supports-color@2.0.0
+871 silly extract through@2.3.8
+872 silly extract resumer@0.0.0
+873 silly extract split@1.0.1
+874 silly extract readable-stream@1.0.34
+875 silly extract xtend@4.0.2
+876 silly extract through2@0.6.5
+877 silly extract tuple-stream@0.0.2
+878 silly extract type-detect@0.1.1
+879 silly extract util-deprecate@1.0.2
+880 silly extract varsize-string@2.2.2
+881 silly extract visualwidth@0.0.1
+882 silly extract terminal-menu@2.1.1
+883 silly extract wcsize@1.0.0
+884 silly tarball trying abbrev@1 by hash: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+885 silly tarball trying after@~0.8.1 by hash: sha1-/ts5T58OAqqXaOcCvaI7UF+ufh8=
+886 silly tarball trying ansi-regex@^2.0.0 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+887 silly tarball trying ansi-styles@~1.0.0 by hash: sha1-yxAt8cVvUSPquLZ817mAJ6AnkXg=
+888 silly tarball trying ansicolors@~0.2.1 by hash: sha1-vgiVmQl7dKXJxKhKDNvNtivYeu8=
+889 silly tarball trying charm@~0.1.2 by hash: sha1-BsIe7RobBq62dVPNxT4jJ0usIpY=
+890 silly tarball trying colors@~0.6.2 by hash: sha1-JCP+ZnisDF2uiFLl0OW+CMmXq8w=
+891 silly tarball trying colors-tmpl@~0.1.0 by hash: sha1-F+n5rYBceS/6OsagSctzJ9llt/4=
+892 silly tarball trying core-util-is@~1.0.0 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+893 silly tarball trying escape-string-regexp@^1.0.2 by hash: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+894 silly tarball trying esprima-fb@~12001.1.0-dev-harmony-fb by hash: sha1-2EQAOEupXOJnjGF60kp/QICNqRU=
+895 silly tarball trying has-ansi@^2.0.0 by hash: sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
+896 silly tarball trying has-color@~0.1.0 by hash: sha1-ZxRKUmDDT8PMpnfQQdr1L+e3iy8=
+897 silly tarball trying inherits@~2.0.0 by hash: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+898 silly tarball trying isarray@0.0.1 by hash: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+899 silly tarball trying map-async@~0.1.1 by hash: sha1-yJfARJ+Fhkx0taPxlu20IVZDF0U=
+900 silly tarball trying marked@~0.3.0 by hash: sha512-ea2eGWOqNxPcXv8dyERdSr/6FmzvWwzjMxpfGB/sbMccXoct+xY+YukPD+QTUZwyvK7BZwcr4m21WBOW41pAkg==
+901 silly tarball trying minimist@~1.2.0 by hash: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+902 silly tarball trying mkdirp@~0.3.5 by hash: sha1-3j5fiWHIjHh+4TaN+EmsRBPsqNc=
+903 silly tarball trying mustache@^0.8.2 by hash: sha1-v1uSK49Azc+5HANdzZFhENFiH5s=
+904 silly tarball trying nopt@~2.1.1 by hash: sha1-bMzZd7gBMqB3MdbozljCyDA8+a8=
+905 silly tarball trying object-keys@~0.4.0 by hash: sha1-KKaq50KN0sOpLz2V8hM13SBOAzY=
+906 silly tarball trying xtend@~2.1.1 by hash: sha1-bv7MKk2tjmlixJAbM3znuoe10os=
+907 silly tarball trying minimist@~0.0.1 by hash: sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
+908 silly tarball trying process-nextick-args@~2.0.0 by hash: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
+909 silly tarball trying redeyed@~0.5.0 by hash: sha1-erAA5g7jh1rBFdKe2zLBQDxsJdE=
+910 silly tarball trying cardinal@^0.5.0 by hash: sha1-ANX2YdvUqr/ffUHOSKWlm8o1opE=
+911 silly tarball trying safe-buffer@~5.1.1 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+912 silly tarball trying sprintf@^0.1.4 by hash: sha1-j4PjmpMXwaUCy324BQ5Rxnn27c8=
+913 silly tarball trying i18n-core@^1.3.2 by hash: sha1-UWaJKw51I1REXgMvAUbC0Tv+hUA=
+914 silly tarball trying string_decoder@~0.10.x by hash: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+915 silly tarball trying readable-stream@~1.1.9 by hash: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=
+916 silly tarball trying duplexer2@0.0.2 by hash: sha1-xhTc9n4vsUmVqRcR5aYX6KYKMds=
+917 silly tarball trying strip-ansi@~0.1.0 by hash: sha1-OeipjQRNFQZgq+SmgIrPcLt7yZE=
+918 silly tarball trying chalk@~0.4.0 by hash: sha1-UZmj3c0MHv4jvAjBsCewYXbgxk8=
+919 silly tarball trying msee@~0.1.1 by hash: sha1-8tHiDvlLjNRSQ/LVyBfpcUPwKG0=
+920 silly tarball trying supports-color@^2.0.0 by hash: sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
+921 silly tarball trying through@~2.3.4 by hash: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+922 silly tarball trying resumer@~0.0.0 by hash: sha1-8ej0YeQGS6Oegq883CqMiT0HZ1k=
+923 silly tarball trying split@^1.0.0 by hash: sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==
+924 silly tarball trying readable-stream@>=1.0.33-1 <1.1.0-0 by hash: sha1-Elgg40vIQtLyqq+v5MKRbuMsFXw=
+925 silly tarball trying xtend@>=4.0.0 <4.1.0-0 by hash: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+926 silly tarball trying through2@^0.6.3 by hash: sha1-QaucZ7KdVyCQcUEOHXp6lozTrUg=
+927 silly tarball trying tuple-stream@0.0.2 by hash: sha1-+R9vsbr94evXl89gAzeOvDhwuTM=
+928 silly tarball trying type-detect@0.1.1 by hash: sha1-C6XsKohWQORw6k6FBZcZANrFiCI=
+929 silly tarball trying util-deprecate@~1.0.1 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+930 silly tarball trying varsize-string@^2.2.1 by hash: sha1-7xs7bHLbCDXqL4TN+R/sMMUgaIs=
+931 silly tarball trying visualwidth@~0.0.1 by hash: sha1-I3Z1q5pyEVY5JrpjMJRYx9qRWrc=
+932 silly tarball trying terminal-menu@^2.1.1 by hash: sha1-uQhiCAAARHtFYBFOLSqBEf7MOnk=
+933 silly tarball trying wcsize@^1.0.0 by hash: sha1-qKLhXmqKdHkdulgPaaV9J+hQ6h4=
+934 silly extract abbrev@1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\abbrev-58b62d65 (761ms)
+935 silly extract ansi-styles@~1.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\ansi-styles-c8900828 (759ms)
+936 silly extract has-color@~0.1.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\has-color-f8e5e202 (752ms)
+937 silly extract chalk@~0.4.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\chalk-721e372d (732ms)
+938 silly extract ansi-regex@^2.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\ansi-regex-327c640b (780ms)
+939 silly extract escape-string-regexp@^1.0.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\escape-string-regexp-71a22387 (776ms)
+940 silly extract has-ansi@^2.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\has-ansi-58eb2390 (775ms)
+941 silly extract process-nextick-args@~2.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\process-nextick-args-628012d1 (763ms)
+942 silly extract strip-ansi@~0.1.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\strip-ansi-49017edc (755ms)
+943 silly extract supports-color@^2.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\supports-color-36ef356f (753ms)
+944 silly extract functional-javascript-workshop@1.0.6
+945 silly extract workshopper-exercise@2.7.0
+946 silly extract workshopper@2.7.0
+947 silly extract lorem-ipsum@1.0.6
+948 silly extract inherits@~2.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\inherits-1ac696e0 (799ms)
+949 silly extract string_decoder@~0.10.x extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\string_decoder-4e37048c (784ms)
+950 silly extract through2@^0.6.3 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\through2-16b3e09a (774ms)
+951 silly extract deep-eql@0.1.3
+952 silly extract xtend@3.0.0
+953 silly extract through2@2.0.5
+954 silly extract xtend@4.0.2
+955 silly extract chalk@1.1.3
+956 silly extract strip-ansi@3.0.1
+957 silly tarball trying functional-javascript-workshop@latest by hash: sha1-JdgASFV5xnjb5FckAn72JU3MfwE=
+958 silly tarball trying workshopper-exercise@^2.4.0 by hash: sha1-hccAviZkrIWROtqAcEBQQBs+CDY=
+959 silly tarball trying workshopper@^2.6.0 by hash: sha1-NnmHA/CAcfUEzPl0OZBmPntC9jk=
+960 silly tarball trying lorem-ipsum@^1.0.1 by hash: sha512-Rx4XH8X4KSDCKAVvWGYlhAfNqdUP5ZdT4rRyf0jjrvWgtViZimDIlopWNfn/y3lGM5K4uuiAoY28TaD+7YKFrQ==
+961 silly extract util-deprecate@~1.0.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\util-deprecate-52f617ee (805ms)
+962 silly extract readable-stream@2.3.7
+963 silly extract string_decoder@1.1.1
+964 silly extract isarray@1.0.0
+965 silly tarball trying deep-eql@^0.1.3 by hash: sha1-71WKyrjeJSBs1xOQbXTlaTDrafI=
+966 silly tarball trying xtend@~3.0.0 by hash: sha1-XM50B7r2Qsunvs2laBEcST9ZZlo=
+967 silly tarball trying through2@^2.0.0 by hash: sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==
+968 silly tarball trying xtend@^4.0.1 by hash: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+969 silly tarball trying chalk@^1.1.1 by hash: sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
+970 silly tarball trying strip-ansi@^3.0.0 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+971 silly extract colors-tmpl@~0.1.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\colors-tmpl-659c2fdd (867ms)
+972 silly extract safe-buffer@~5.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\safe-buffer-aa8151a3 (849ms)
+973 silly extract xtend@>=4.0.0 <4.1.0-0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\xtend-0856bf5f (838ms)
+974 silly extract i18n-core@2.1.1
+975 silly tarball trying readable-stream@~2.3.6 by hash: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
+976 silly tarball trying string_decoder@~1.1.1 by hash: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+977 silly tarball trying isarray@~1.0.0 by hash: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+978 silly extract isarray@0.0.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\isarray-4700bf2f (885ms)
+979 silly extract ansi-styles@2.2.1
+980 silly extract optimist@0.6.1
+981 silly extract wordwrap@0.0.3
+982 silly tarball trying i18n-core@^2.1.1 by hash: sha1-l4MCdLPOY+LqZ5YlbgSKSa9WzBQ=
+983 silly extract map-async@~0.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\map-async-1a087038 (933ms)
+984 silly extract xtend@~2.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\xtend-d8098fa3 (929ms)
+985 silly extract type-detect@0.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\type-detect-d7737a37 (909ms)
+986 silly extract wcstring@2.1.1
+987 silly tarball trying ansi-styles@^2.2.1 by hash: sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
+988 silly tarball trying optimist@~0.6.1 by hash: sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
+989 silly tarball trying wordwrap@~0.0.2 by hash: sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
+990 silly extract wcsize@^1.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\wcsize-a00a282c (937ms)
+991 silly extract after@~0.8.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\after-e111f98e (977ms)
+992 silly extract ansicolors@~0.2.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\ansicolors-be7315d9 (975ms)
+993 silly tarball trying wcstring@^2.1.0 by hash: sha1-3tUtdFycceJNCkidKCbSKjZe0Gc=
+994 silly extract core-util-is@~1.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\core-util-is-2907da86 (1000ms)
+995 silly extract sprintf@^0.1.4 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\sprintf-d029ace9 (982ms)
+996 silly extract varsize-string@^2.2.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\varsize-string-85df45da (997ms)
+997 silly extract duplexer2@0.0.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\duplexer2-64236857 (1008ms)
+998 silly extract terminal-menu@^2.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\terminal-menu-f8910b28 (1041ms)
+999 silly extract colors@~0.6.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\colors-c46ca436 (1076ms)
+1000 silly extract resumer@~0.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\resumer-9de7a38f (1049ms)
+1001 silly extract tuple-stream@0.0.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\tuple-stream-8f3b6d0d (1046ms)
+1002 silly extract msee@~0.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\msee-be013aa5 (1095ms)
+1003 silly extract through@~2.3.4 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\through-b31ec6d5 (1093ms)
+1004 silly extract nopt@~2.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\nopt-34dd171c (1149ms)
+1005 silly extract object-keys@~0.4.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\object-keys-fac3134e (1148ms)
+1006 silly extract split@^1.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\split-902758a4 (1175ms)
+1007 silly extract through2@^2.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\through2-77874251 (376ms)
+1008 silly extract chalk@^1.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\chalk-2409c0fb (374ms)
+1009 silly extract strip-ansi@^3.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\strip-ansi-fbade7e5 (373ms)
+1010 silly extract charm@~0.1.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\charm-97219307 (1233ms)
+1011 silly extract readable-stream@>=1.0.33-1 <1.1.0-0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\readable-stream-f0fbd9cc (1223ms)
+1012 silly extract xtend@^4.0.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\xtend-c498a38b (424ms)
+1013 silly extract ansi-styles@^2.2.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\ansi-styles-0a03978d (320ms)
+1014 silly extract readable-stream@~1.1.9 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\readable-stream-5ab26803 (1253ms)
+1015 silly extract xtend@~3.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\xtend-2668bc63 (449ms)
+1016 silly extract isarray@~1.0.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\isarray-c3ed4bf3 (418ms)
+1017 silly extract deep-eql@^0.1.3 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\deep-eql-5804fbf8 (458ms)
+1018 silly extract string_decoder@~1.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\string_decoder-fc3e70b0 (427ms)
+1019 silly extract visualwidth@~0.0.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\visualwidth-433789e8 (1259ms)
+1020 silly extract mkdirp@~0.3.5 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\mkdirp-a47c8644 (1283ms)
+1021 silly extract minimist@~0.0.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\minimist-2f0b3222 (1278ms)
+1022 silly extract minimist@~1.2.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\minimist-84b08dbd (1308ms)
+1023 silly extract i18n-core@^1.3.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\i18n-core-34993415 (1315ms)
+1024 silly extract wcstring@^2.1.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\wcstring-210b2474 (373ms)
+1025 silly extract lorem-ipsum@^1.0.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\lorem-ipsum-e43fffa3 (540ms)
+1026 silly extract wordwrap@~0.0.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\wordwrap-b239f779 (415ms)
+1027 silly extract marked@~0.3.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\marked-22c4c59d (1348ms)
+1028 silly extract workshopper-exercise@^2.4.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\workshopper-exercise-7fd2fe11 (609ms)
+1029 silly extract redeyed@~0.5.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\redeyed-1e83a451 (1403ms)
+1030 silly extract mustache@^0.8.2 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\mustache-6526c136 (1412ms)
+1031 silly extract i18n-core@^2.1.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\i18n-core-89050145 (562ms)
+1032 silly extract optimist@~0.6.1 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\optimist-243640e4 (509ms)
+1033 silly extract cardinal@^0.5.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\cardinal-3e72e2d0 (1428ms)
+1034 silly extract readable-stream@~2.3.6 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\readable-stream-f28b77f7 (595ms)
+1035 silly extract esprima-fb@~12001.1.0-dev-harmony-fb extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\esprima-fb-521a80ab (1459ms)
+1036 silly extract workshopper@^2.6.0 extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\workshopper-e261d6a6 (734ms)
+1037 silly extract functional-javascript-workshop@latest extracted to C:\Users\surface\AppData\Roaming\npm\node_modules\.staging\functional-javascript-workshop-1531a78b (905ms)
+1038 timing action:extract Completed in 1716ms
+1039 silly doReverseSerial unbuild 544
+1040 silly doSerial remove 544
+1041 silly doSerial move 544
+1042 silly doSerial finalize 544
+1043 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\abbrev
+1044 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\after
+1045 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\ansi-regex
+1046 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\ansi-styles
+1047 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\ansicolors
+1048 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\charm
+1049 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\colors
+1050 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\colors-tmpl
+1051 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\core-util-is
+1052 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\escape-string-regexp
+1053 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\esprima-fb
+1054 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\has-ansi
+1055 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\has-color
+1056 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\inherits
+1057 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\isarray
+1058 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\map-async
+1059 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\marked
+1060 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\minimist
+1061 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\mkdirp
+1062 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\mustache
+1063 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\nopt
+1064 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\object-keys
+1065 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\msee\node_modules\xtend
+1066 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\optimist\node_modules\minimist
+1067 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\process-nextick-args
+1068 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\redeyed
+1069 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\cardinal
+1070 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\safe-buffer
+1071 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\sprintf
+1072 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\i18n-core
+1073 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\string_decoder
+1074 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\readable-stream
+1075 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\duplexer2
+1076 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\strip-ansi
+1077 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\chalk
+1078 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\msee
+1079 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\supports-color
+1080 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through
+1081 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\resumer
+1082 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\split
+1083 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2\node_modules\readable-stream
+1084 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2\node_modules\xtend
+1085 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2
+1086 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\tuple-stream
+1087 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\type-detect
+1088 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\util-deprecate
+1089 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\varsize-string
+1090 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\visualwidth
+1091 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\terminal-menu
+1092 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\wcsize
+1093 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\wcstring
+1094 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\wordwrap
+1095 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\optimist
+1096 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\ansi-styles
+1097 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\i18n-core
+1098 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\isarray
+1099 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\string_decoder
+1100 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\readable-stream
+1101 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\strip-ansi
+1102 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\chalk
+1103 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\xtend
+1104 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\through2
+1105 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\xtend
+1106 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\deep-eql
+1107 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\lorem-ipsum
+1108 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper
+1109 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise
+1110 silly finalize C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop
+1111 timing action:finalize Completed in 951ms
+1112 silly doParallel refresh-package-json 68
+1113 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\abbrev
+1114 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\after
+1115 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\ansi-regex
+1116 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\ansi-styles
+1117 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\ansicolors
+1118 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\charm
+1119 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\colors
+1120 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\colors-tmpl
+1121 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\core-util-is
+1122 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\escape-string-regexp
+1123 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\esprima-fb
+1124 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\has-ansi
+1125 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\has-color
+1126 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\inherits
+1127 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\isarray
+1128 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\map-async
+1129 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\marked
+1130 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\minimist
+1131 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\mkdirp
+1132 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\mustache
+1133 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\nopt
+1134 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\object-keys
+1135 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\msee\node_modules\xtend
+1136 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\optimist\node_modules\minimist
+1137 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\process-nextick-args
+1138 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\redeyed
+1139 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\cardinal
+1140 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\safe-buffer
+1141 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\sprintf
+1142 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\i18n-core
+1143 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\string_decoder
+1144 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\readable-stream
+1145 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\duplexer2
+1146 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\strip-ansi
+1147 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\chalk
+1148 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\msee
+1149 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\supports-color
+1150 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through
+1151 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\resumer
+1152 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\split
+1153 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2\node_modules\readable-stream
+1154 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2\node_modules\xtend
+1155 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2
+1156 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\tuple-stream
+1157 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\type-detect
+1158 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\util-deprecate
+1159 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\varsize-string
+1160 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\visualwidth
+1161 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\terminal-menu
+1162 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\wcsize
+1163 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop
+1164 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise
+1165 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper
+1166 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\lorem-ipsum
+1167 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\deep-eql
+1168 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\xtend
+1169 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\through2
+1170 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\xtend
+1171 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\chalk
+1172 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\strip-ansi
+1173 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\readable-stream
+1174 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\string_decoder
+1175 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\isarray
+1176 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\i18n-core
+1177 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules\ansi-styles
+1178 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\optimist
+1179 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\wordwrap
+1180 silly refresh-package-json C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\wcstring
+1181 timing action:refresh-package-json Completed in 698ms
+1182 silly doParallel preinstall 68
+1183 silly preinstall abbrev@1.1.1
+1184 info lifecycle abbrev@1.1.1~preinstall: abbrev@1.1.1
+1185 silly preinstall after@0.8.2
+1186 info lifecycle after@0.8.2~preinstall: after@0.8.2
+1187 silly preinstall ansi-regex@2.1.1
+1188 info lifecycle ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1
+1189 silly preinstall ansi-styles@1.0.0
+1190 info lifecycle ansi-styles@1.0.0~preinstall: ansi-styles@1.0.0
+1191 silly preinstall ansicolors@0.2.1
+1192 info lifecycle ansicolors@0.2.1~preinstall: ansicolors@0.2.1
+1193 silly preinstall charm@0.1.2
+1194 info lifecycle charm@0.1.2~preinstall: charm@0.1.2
+1195 silly preinstall colors@0.6.2
+1196 info lifecycle colors@0.6.2~preinstall: colors@0.6.2
+1197 silly preinstall colors-tmpl@0.1.1
+1198 info lifecycle colors-tmpl@0.1.1~preinstall: colors-tmpl@0.1.1
+1199 silly preinstall core-util-is@1.0.2
+1200 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+1201 silly preinstall escape-string-regexp@1.0.5
+1202 info lifecycle escape-string-regexp@1.0.5~preinstall: escape-string-regexp@1.0.5
+1203 silly preinstall esprima-fb@12001.1.0-dev-harmony-fb
+1204 info lifecycle esprima-fb@12001.1.0-dev-harmony-fb~preinstall: esprima-fb@12001.1.0-dev-harmony-fb
+1205 silly preinstall has-ansi@2.0.0
+1206 info lifecycle has-ansi@2.0.0~preinstall: has-ansi@2.0.0
+1207 silly preinstall has-color@0.1.7
+1208 info lifecycle has-color@0.1.7~preinstall: has-color@0.1.7
+1209 silly preinstall inherits@2.0.4
+1210 info lifecycle inherits@2.0.4~preinstall: inherits@2.0.4
+1211 silly preinstall isarray@0.0.1
+1212 info lifecycle isarray@0.0.1~preinstall: isarray@0.0.1
+1213 silly preinstall map-async@0.1.1
+1214 info lifecycle map-async@0.1.1~preinstall: map-async@0.1.1
+1215 silly preinstall marked@0.3.19
+1216 info lifecycle marked@0.3.19~preinstall: marked@0.3.19
+1217 silly preinstall minimist@1.2.5
+1218 info lifecycle minimist@1.2.5~preinstall: minimist@1.2.5
+1219 silly preinstall mkdirp@0.3.5
+1220 info lifecycle mkdirp@0.3.5~preinstall: mkdirp@0.3.5
+1221 silly preinstall mustache@0.8.2
+1222 info lifecycle mustache@0.8.2~preinstall: mustache@0.8.2
+1223 silly preinstall nopt@2.1.2
+1224 info lifecycle nopt@2.1.2~preinstall: nopt@2.1.2
+1225 silly preinstall object-keys@0.4.0
+1226 info lifecycle object-keys@0.4.0~preinstall: object-keys@0.4.0
+1227 silly preinstall xtend@2.1.2
+1228 info lifecycle xtend@2.1.2~preinstall: xtend@2.1.2
+1229 silly preinstall minimist@0.0.10
+1230 info lifecycle minimist@0.0.10~preinstall: minimist@0.0.10
+1231 silly preinstall process-nextick-args@2.0.1
+1232 info lifecycle process-nextick-args@2.0.1~preinstall: process-nextick-args@2.0.1
+1233 silly preinstall redeyed@0.5.0
+1234 info lifecycle redeyed@0.5.0~preinstall: redeyed@0.5.0
+1235 silly preinstall cardinal@0.5.0
+1236 info lifecycle cardinal@0.5.0~preinstall: cardinal@0.5.0
+1237 silly preinstall safe-buffer@5.1.2
+1238 info lifecycle safe-buffer@5.1.2~preinstall: safe-buffer@5.1.2
+1239 silly preinstall sprintf@0.1.5
+1240 info lifecycle sprintf@0.1.5~preinstall: sprintf@0.1.5
+1241 silly preinstall i18n-core@1.3.3
+1242 info lifecycle i18n-core@1.3.3~preinstall: i18n-core@1.3.3
+1243 silly preinstall string_decoder@0.10.31
+1244 info lifecycle string_decoder@0.10.31~preinstall: string_decoder@0.10.31
+1245 silly preinstall readable-stream@1.1.14
+1246 info lifecycle readable-stream@1.1.14~preinstall: readable-stream@1.1.14
+1247 silly preinstall duplexer2@0.0.2
+1248 info lifecycle duplexer2@0.0.2~preinstall: duplexer2@0.0.2
+1249 silly preinstall strip-ansi@0.1.1
+1250 info lifecycle strip-ansi@0.1.1~preinstall: strip-ansi@0.1.1
+1251 silly preinstall chalk@0.4.0
+1252 info lifecycle chalk@0.4.0~preinstall: chalk@0.4.0
+1253 silly preinstall msee@0.1.2
+1254 info lifecycle msee@0.1.2~preinstall: msee@0.1.2
+1255 silly preinstall supports-color@2.0.0
+1256 info lifecycle supports-color@2.0.0~preinstall: supports-color@2.0.0
+1257 silly preinstall through@2.3.8
+1258 info lifecycle through@2.3.8~preinstall: through@2.3.8
+1259 silly preinstall resumer@0.0.0
+1260 info lifecycle resumer@0.0.0~preinstall: resumer@0.0.0
+1261 silly preinstall split@1.0.1
+1262 info lifecycle split@1.0.1~preinstall: split@1.0.1
+1263 silly preinstall readable-stream@1.0.34
+1264 info lifecycle readable-stream@1.0.34~preinstall: readable-stream@1.0.34
+1265 silly preinstall xtend@4.0.2
+1266 info lifecycle xtend@4.0.2~preinstall: xtend@4.0.2
+1267 silly preinstall through2@0.6.5
+1268 info lifecycle through2@0.6.5~preinstall: through2@0.6.5
+1269 silly preinstall tuple-stream@0.0.2
+1270 info lifecycle tuple-stream@0.0.2~preinstall: tuple-stream@0.0.2
+1271 silly preinstall type-detect@0.1.1
+1272 info lifecycle type-detect@0.1.1~preinstall: type-detect@0.1.1
+1273 silly preinstall util-deprecate@1.0.2
+1274 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1275 silly preinstall varsize-string@2.2.2
+1276 info lifecycle varsize-string@2.2.2~preinstall: varsize-string@2.2.2
+1277 silly preinstall visualwidth@0.0.1
+1278 info lifecycle visualwidth@0.0.1~preinstall: visualwidth@0.0.1
+1279 silly preinstall terminal-menu@2.1.1
+1280 info lifecycle terminal-menu@2.1.1~preinstall: terminal-menu@2.1.1
+1281 silly preinstall wcsize@1.0.0
+1282 info lifecycle wcsize@1.0.0~preinstall: wcsize@1.0.0
+1283 silly preinstall functional-javascript-workshop@1.0.6
+1284 info lifecycle functional-javascript-workshop@1.0.6~preinstall: functional-javascript-workshop@1.0.6
+1285 silly preinstall workshopper-exercise@2.7.0
+1286 info lifecycle workshopper-exercise@2.7.0~preinstall: workshopper-exercise@2.7.0
+1287 silly preinstall workshopper@2.7.0
+1288 info lifecycle workshopper@2.7.0~preinstall: workshopper@2.7.0
+1289 silly preinstall lorem-ipsum@1.0.6
+1290 info lifecycle lorem-ipsum@1.0.6~preinstall: lorem-ipsum@1.0.6
+1291 silly preinstall deep-eql@0.1.3
+1292 info lifecycle deep-eql@0.1.3~preinstall: deep-eql@0.1.3
+1293 silly preinstall xtend@3.0.0
+1294 info lifecycle xtend@3.0.0~preinstall: xtend@3.0.0
+1295 silly preinstall through2@2.0.5
+1296 info lifecycle through2@2.0.5~preinstall: through2@2.0.5
+1297 silly preinstall xtend@4.0.2
+1298 info lifecycle xtend@4.0.2~preinstall: xtend@4.0.2
+1299 silly preinstall chalk@1.1.3
+1300 info lifecycle chalk@1.1.3~preinstall: chalk@1.1.3
+1301 silly preinstall strip-ansi@3.0.1
+1302 info lifecycle strip-ansi@3.0.1~preinstall: strip-ansi@3.0.1
+1303 silly preinstall readable-stream@2.3.7
+1304 info lifecycle readable-stream@2.3.7~preinstall: readable-stream@2.3.7
+1305 silly preinstall string_decoder@1.1.1
+1306 info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+1307 silly preinstall isarray@1.0.0
+1308 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+1309 silly preinstall i18n-core@2.1.1
+1310 info lifecycle i18n-core@2.1.1~preinstall: i18n-core@2.1.1
+1311 silly preinstall ansi-styles@2.2.1
+1312 info lifecycle ansi-styles@2.2.1~preinstall: ansi-styles@2.2.1
+1313 silly preinstall optimist@0.6.1
+1314 info lifecycle optimist@0.6.1~preinstall: optimist@0.6.1
+1315 silly preinstall wordwrap@0.0.3
+1316 info lifecycle wordwrap@0.0.3~preinstall: wordwrap@0.0.3
+1317 silly preinstall wcstring@2.1.1
+1318 info lifecycle wcstring@2.1.1~preinstall: wcstring@2.1.1
+1319 timing action:preinstall Completed in 23ms
+1320 silly doSerial build 544
+1321 silly build abbrev@1.1.1
+1322 info linkStuff abbrev@1.1.1
+1323 silly linkStuff abbrev@1.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1324 silly linkStuff abbrev@1.1.1 is part of a global install
+1325 silly linkStuff abbrev@1.1.1 is installed into a global node_modules
+1326 silly build after@0.8.2
+1327 info linkStuff after@0.8.2
+1328 silly linkStuff after@0.8.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1329 silly linkStuff after@0.8.2 is part of a global install
+1330 silly linkStuff after@0.8.2 is installed into a global node_modules
+1331 silly build ansi-regex@2.1.1
+1332 info linkStuff ansi-regex@2.1.1
+1333 silly linkStuff ansi-regex@2.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1334 silly linkStuff ansi-regex@2.1.1 is part of a global install
+1335 silly linkStuff ansi-regex@2.1.1 is installed into a global node_modules
+1336 silly build ansi-styles@1.0.0
+1337 info linkStuff ansi-styles@1.0.0
+1338 silly linkStuff ansi-styles@1.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1339 silly linkStuff ansi-styles@1.0.0 is part of a global install
+1340 silly linkStuff ansi-styles@1.0.0 is installed into a global node_modules
+1341 silly build ansicolors@0.2.1
+1342 info linkStuff ansicolors@0.2.1
+1343 silly linkStuff ansicolors@0.2.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1344 silly linkStuff ansicolors@0.2.1 is part of a global install
+1345 silly linkStuff ansicolors@0.2.1 is installed into a global node_modules
+1346 silly build charm@0.1.2
+1347 info linkStuff charm@0.1.2
+1348 silly linkStuff charm@0.1.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1349 silly linkStuff charm@0.1.2 is part of a global install
+1350 silly linkStuff charm@0.1.2 is installed into a global node_modules
+1351 silly build colors@0.6.2
+1352 info linkStuff colors@0.6.2
+1353 silly linkStuff colors@0.6.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1354 silly linkStuff colors@0.6.2 is part of a global install
+1355 silly linkStuff colors@0.6.2 is installed into a global node_modules
+1356 silly build colors-tmpl@0.1.1
+1357 info linkStuff colors-tmpl@0.1.1
+1358 silly linkStuff colors-tmpl@0.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1359 silly linkStuff colors-tmpl@0.1.1 is part of a global install
+1360 silly linkStuff colors-tmpl@0.1.1 is installed into a global node_modules
+1361 silly build core-util-is@1.0.2
+1362 info linkStuff core-util-is@1.0.2
+1363 silly linkStuff core-util-is@1.0.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1364 silly linkStuff core-util-is@1.0.2 is part of a global install
+1365 silly linkStuff core-util-is@1.0.2 is installed into a global node_modules
+1366 silly build escape-string-regexp@1.0.5
+1367 info linkStuff escape-string-regexp@1.0.5
+1368 silly linkStuff escape-string-regexp@1.0.5 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1369 silly linkStuff escape-string-regexp@1.0.5 is part of a global install
+1370 silly linkStuff escape-string-regexp@1.0.5 is installed into a global node_modules
+1371 silly build esprima-fb@12001.1.0-dev-harmony-fb
+1372 info linkStuff esprima-fb@12001.1.0-dev-harmony-fb
+1373 silly linkStuff esprima-fb@12001.1.0-dev-harmony-fb has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1374 silly linkStuff esprima-fb@12001.1.0-dev-harmony-fb is part of a global install
+1375 silly linkStuff esprima-fb@12001.1.0-dev-harmony-fb is installed into a global node_modules
+1376 verbose linkBins [
+1376 verbose linkBins   { esparse: 'bin/esparse.js', esvalidate: 'bin/esvalidate.js' },
+1376 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1376 verbose linkBins   false
+1376 verbose linkBins ]
+1377 silly build has-ansi@2.0.0
+1378 info linkStuff has-ansi@2.0.0
+1379 silly linkStuff has-ansi@2.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1380 silly linkStuff has-ansi@2.0.0 is part of a global install
+1381 silly linkStuff has-ansi@2.0.0 is installed into a global node_modules
+1382 silly build has-color@0.1.7
+1383 info linkStuff has-color@0.1.7
+1384 silly linkStuff has-color@0.1.7 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1385 silly linkStuff has-color@0.1.7 is part of a global install
+1386 silly linkStuff has-color@0.1.7 is installed into a global node_modules
+1387 silly build inherits@2.0.4
+1388 info linkStuff inherits@2.0.4
+1389 silly linkStuff inherits@2.0.4 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1390 silly linkStuff inherits@2.0.4 is part of a global install
+1391 silly linkStuff inherits@2.0.4 is installed into a global node_modules
+1392 silly build isarray@0.0.1
+1393 info linkStuff isarray@0.0.1
+1394 silly linkStuff isarray@0.0.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1395 silly linkStuff isarray@0.0.1 is part of a global install
+1396 silly linkStuff isarray@0.0.1 is installed into a global node_modules
+1397 silly build map-async@0.1.1
+1398 info linkStuff map-async@0.1.1
+1399 silly linkStuff map-async@0.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1400 silly linkStuff map-async@0.1.1 is part of a global install
+1401 silly linkStuff map-async@0.1.1 is installed into a global node_modules
+1402 silly build marked@0.3.19
+1403 info linkStuff marked@0.3.19
+1404 silly linkStuff marked@0.3.19 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1405 silly linkStuff marked@0.3.19 is part of a global install
+1406 silly linkStuff marked@0.3.19 is installed into a global node_modules
+1407 verbose linkBins [
+1407 verbose linkBins   { marked: 'bin/marked' },
+1407 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1407 verbose linkBins   false
+1407 verbose linkBins ]
+1408 silly build minimist@1.2.5
+1409 info linkStuff minimist@1.2.5
+1410 silly linkStuff minimist@1.2.5 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1411 silly linkStuff minimist@1.2.5 is part of a global install
+1412 silly linkStuff minimist@1.2.5 is installed into a global node_modules
+1413 silly build mkdirp@0.3.5
+1414 info linkStuff mkdirp@0.3.5
+1415 silly linkStuff mkdirp@0.3.5 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1416 silly linkStuff mkdirp@0.3.5 is part of a global install
+1417 silly linkStuff mkdirp@0.3.5 is installed into a global node_modules
+1418 silly build mustache@0.8.2
+1419 info linkStuff mustache@0.8.2
+1420 silly linkStuff mustache@0.8.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1421 silly linkStuff mustache@0.8.2 is part of a global install
+1422 silly linkStuff mustache@0.8.2 is installed into a global node_modules
+1423 silly build nopt@2.1.2
+1424 info linkStuff nopt@2.1.2
+1425 silly linkStuff nopt@2.1.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1426 silly linkStuff nopt@2.1.2 is part of a global install
+1427 silly linkStuff nopt@2.1.2 is installed into a global node_modules
+1428 verbose linkBins [
+1428 verbose linkBins   { nopt: 'bin/nopt.js' },
+1428 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1428 verbose linkBins   false
+1428 verbose linkBins ]
+1429 silly build object-keys@0.4.0
+1430 info linkStuff object-keys@0.4.0
+1431 silly linkStuff object-keys@0.4.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1432 silly linkStuff object-keys@0.4.0 is part of a global install
+1433 silly linkStuff object-keys@0.4.0 is installed into a global node_modules
+1434 silly build xtend@2.1.2
+1435 info linkStuff xtend@2.1.2
+1436 silly linkStuff xtend@2.1.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\msee\node_modules as its parent node_modules
+1437 silly linkStuff xtend@2.1.2 is part of a global install
+1438 silly linkStuff xtend@2.1.2 is installed into a global node_modules
+1439 silly build minimist@0.0.10
+1440 info linkStuff minimist@0.0.10
+1441 silly linkStuff minimist@0.0.10 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\optimist\node_modules as its parent node_modules
+1442 silly linkStuff minimist@0.0.10 is part of a global install
+1443 silly linkStuff minimist@0.0.10 is installed into a global node_modules
+1444 silly build process-nextick-args@2.0.1
+1445 info linkStuff process-nextick-args@2.0.1
+1446 silly linkStuff process-nextick-args@2.0.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1447 silly linkStuff process-nextick-args@2.0.1 is part of a global install
+1448 silly linkStuff process-nextick-args@2.0.1 is installed into a global node_modules
+1449 silly build redeyed@0.5.0
+1450 info linkStuff redeyed@0.5.0
+1451 silly linkStuff redeyed@0.5.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1452 silly linkStuff redeyed@0.5.0 is part of a global install
+1453 silly linkStuff redeyed@0.5.0 is installed into a global node_modules
+1454 silly build cardinal@0.5.0
+1455 info linkStuff cardinal@0.5.0
+1456 silly linkStuff cardinal@0.5.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1457 silly linkStuff cardinal@0.5.0 is part of a global install
+1458 silly linkStuff cardinal@0.5.0 is installed into a global node_modules
+1459 verbose linkBins [
+1459 verbose linkBins   { cdl: 'bin/cdl.js' },
+1459 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1459 verbose linkBins   false
+1459 verbose linkBins ]
+1460 silly build safe-buffer@5.1.2
+1461 info linkStuff safe-buffer@5.1.2
+1462 silly linkStuff safe-buffer@5.1.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1463 silly linkStuff safe-buffer@5.1.2 is part of a global install
+1464 silly linkStuff safe-buffer@5.1.2 is installed into a global node_modules
+1465 silly build sprintf@0.1.5
+1466 info linkStuff sprintf@0.1.5
+1467 silly linkStuff sprintf@0.1.5 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1468 silly linkStuff sprintf@0.1.5 is part of a global install
+1469 silly linkStuff sprintf@0.1.5 is installed into a global node_modules
+1470 silly build i18n-core@1.3.3
+1471 info linkStuff i18n-core@1.3.3
+1472 silly linkStuff i18n-core@1.3.3 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1473 silly linkStuff i18n-core@1.3.3 is part of a global install
+1474 silly linkStuff i18n-core@1.3.3 is installed into a global node_modules
+1475 silly build string_decoder@0.10.31
+1476 info linkStuff string_decoder@0.10.31
+1477 silly linkStuff string_decoder@0.10.31 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1478 silly linkStuff string_decoder@0.10.31 is part of a global install
+1479 silly linkStuff string_decoder@0.10.31 is installed into a global node_modules
+1480 silly build readable-stream@1.1.14
+1481 info linkStuff readable-stream@1.1.14
+1482 silly linkStuff readable-stream@1.1.14 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1483 silly linkStuff readable-stream@1.1.14 is part of a global install
+1484 silly linkStuff readable-stream@1.1.14 is installed into a global node_modules
+1485 silly build duplexer2@0.0.2
+1486 info linkStuff duplexer2@0.0.2
+1487 silly linkStuff duplexer2@0.0.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1488 silly linkStuff duplexer2@0.0.2 is part of a global install
+1489 silly linkStuff duplexer2@0.0.2 is installed into a global node_modules
+1490 silly build strip-ansi@0.1.1
+1491 info linkStuff strip-ansi@0.1.1
+1492 silly linkStuff strip-ansi@0.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1493 silly linkStuff strip-ansi@0.1.1 is part of a global install
+1494 silly linkStuff strip-ansi@0.1.1 is installed into a global node_modules
+1495 verbose linkBins [
+1495 verbose linkBins   { 'strip-ansi': 'cli.js' },
+1495 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1495 verbose linkBins   false
+1495 verbose linkBins ]
+1496 silly build chalk@0.4.0
+1497 info linkStuff chalk@0.4.0
+1498 silly linkStuff chalk@0.4.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1499 silly linkStuff chalk@0.4.0 is part of a global install
+1500 silly linkStuff chalk@0.4.0 is installed into a global node_modules
+1501 silly build msee@0.1.2
+1502 info linkStuff msee@0.1.2
+1503 silly linkStuff msee@0.1.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1504 silly linkStuff msee@0.1.2 is part of a global install
+1505 silly linkStuff msee@0.1.2 is installed into a global node_modules
+1506 verbose linkBins [
+1506 verbose linkBins   { msee: 'bin/msee' },
+1506 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1506 verbose linkBins   false
+1506 verbose linkBins ]
+1507 silly build supports-color@2.0.0
+1508 info linkStuff supports-color@2.0.0
+1509 silly linkStuff supports-color@2.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1510 silly linkStuff supports-color@2.0.0 is part of a global install
+1511 silly linkStuff supports-color@2.0.0 is installed into a global node_modules
+1512 silly build through@2.3.8
+1513 info linkStuff through@2.3.8
+1514 silly linkStuff through@2.3.8 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1515 silly linkStuff through@2.3.8 is part of a global install
+1516 silly linkStuff through@2.3.8 is installed into a global node_modules
+1517 silly build resumer@0.0.0
+1518 info linkStuff resumer@0.0.0
+1519 silly linkStuff resumer@0.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1520 silly linkStuff resumer@0.0.0 is part of a global install
+1521 silly linkStuff resumer@0.0.0 is installed into a global node_modules
+1522 silly build split@1.0.1
+1523 info linkStuff split@1.0.1
+1524 silly linkStuff split@1.0.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1525 silly linkStuff split@1.0.1 is part of a global install
+1526 silly linkStuff split@1.0.1 is installed into a global node_modules
+1527 silly build readable-stream@1.0.34
+1528 info linkStuff readable-stream@1.0.34
+1529 silly linkStuff readable-stream@1.0.34 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2\node_modules as its parent node_modules
+1530 silly linkStuff readable-stream@1.0.34 is part of a global install
+1531 silly linkStuff readable-stream@1.0.34 is installed into a global node_modules
+1532 silly build xtend@4.0.2
+1533 info linkStuff xtend@4.0.2
+1534 silly linkStuff xtend@4.0.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\through2\node_modules as its parent node_modules
+1535 silly linkStuff xtend@4.0.2 is part of a global install
+1536 silly linkStuff xtend@4.0.2 is installed into a global node_modules
+1537 silly build through2@0.6.5
+1538 info linkStuff through2@0.6.5
+1539 silly linkStuff through2@0.6.5 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1540 silly linkStuff through2@0.6.5 is part of a global install
+1541 silly linkStuff through2@0.6.5 is installed into a global node_modules
+1542 silly build tuple-stream@0.0.2
+1543 info linkStuff tuple-stream@0.0.2
+1544 silly linkStuff tuple-stream@0.0.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1545 silly linkStuff tuple-stream@0.0.2 is part of a global install
+1546 silly linkStuff tuple-stream@0.0.2 is installed into a global node_modules
+1547 silly build type-detect@0.1.1
+1548 info linkStuff type-detect@0.1.1
+1549 silly linkStuff type-detect@0.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1550 silly linkStuff type-detect@0.1.1 is part of a global install
+1551 silly linkStuff type-detect@0.1.1 is installed into a global node_modules
+1552 silly build util-deprecate@1.0.2
+1553 info linkStuff util-deprecate@1.0.2
+1554 silly linkStuff util-deprecate@1.0.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1555 silly linkStuff util-deprecate@1.0.2 is part of a global install
+1556 silly linkStuff util-deprecate@1.0.2 is installed into a global node_modules
+1557 silly build varsize-string@2.2.2
+1558 info linkStuff varsize-string@2.2.2
+1559 silly linkStuff varsize-string@2.2.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1560 silly linkStuff varsize-string@2.2.2 is part of a global install
+1561 silly linkStuff varsize-string@2.2.2 is installed into a global node_modules
+1562 silly build visualwidth@0.0.1
+1563 info linkStuff visualwidth@0.0.1
+1564 silly linkStuff visualwidth@0.0.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1565 silly linkStuff visualwidth@0.0.1 is part of a global install
+1566 silly linkStuff visualwidth@0.0.1 is installed into a global node_modules
+1567 silly build terminal-menu@2.1.1
+1568 info linkStuff terminal-menu@2.1.1
+1569 silly linkStuff terminal-menu@2.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1570 silly linkStuff terminal-menu@2.1.1 is part of a global install
+1571 silly linkStuff terminal-menu@2.1.1 is installed into a global node_modules
+1572 silly build wcsize@1.0.0
+1573 info linkStuff wcsize@1.0.0
+1574 silly linkStuff wcsize@1.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1575 silly linkStuff wcsize@1.0.0 is part of a global install
+1576 silly linkStuff wcsize@1.0.0 is installed into a global node_modules
+1577 silly build wcstring@2.1.1
+1578 info linkStuff wcstring@2.1.1
+1579 silly linkStuff wcstring@2.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1580 silly linkStuff wcstring@2.1.1 is part of a global install
+1581 silly linkStuff wcstring@2.1.1 is installed into a global node_modules
+1582 silly build wordwrap@0.0.3
+1583 info linkStuff wordwrap@0.0.3
+1584 silly linkStuff wordwrap@0.0.3 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1585 silly linkStuff wordwrap@0.0.3 is part of a global install
+1586 silly linkStuff wordwrap@0.0.3 is installed into a global node_modules
+1587 silly build optimist@0.6.1
+1588 info linkStuff optimist@0.6.1
+1589 silly linkStuff optimist@0.6.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1590 silly linkStuff optimist@0.6.1 is part of a global install
+1591 silly linkStuff optimist@0.6.1 is installed into a global node_modules
+1592 silly build ansi-styles@2.2.1
+1593 info linkStuff ansi-styles@2.2.1
+1594 silly linkStuff ansi-styles@2.2.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1595 silly linkStuff ansi-styles@2.2.1 is part of a global install
+1596 silly linkStuff ansi-styles@2.2.1 is installed into a global node_modules
+1597 silly build i18n-core@2.1.1
+1598 info linkStuff i18n-core@2.1.1
+1599 silly linkStuff i18n-core@2.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1600 silly linkStuff i18n-core@2.1.1 is part of a global install
+1601 silly linkStuff i18n-core@2.1.1 is installed into a global node_modules
+1602 silly build isarray@1.0.0
+1603 info linkStuff isarray@1.0.0
+1604 silly linkStuff isarray@1.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1605 silly linkStuff isarray@1.0.0 is part of a global install
+1606 silly linkStuff isarray@1.0.0 is installed into a global node_modules
+1607 silly build string_decoder@1.1.1
+1608 info linkStuff string_decoder@1.1.1
+1609 silly linkStuff string_decoder@1.1.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1610 silly linkStuff string_decoder@1.1.1 is part of a global install
+1611 silly linkStuff string_decoder@1.1.1 is installed into a global node_modules
+1612 silly build readable-stream@2.3.7
+1613 info linkStuff readable-stream@2.3.7
+1614 silly linkStuff readable-stream@2.3.7 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1615 silly linkStuff readable-stream@2.3.7 is part of a global install
+1616 silly linkStuff readable-stream@2.3.7 is installed into a global node_modules
+1617 silly build strip-ansi@3.0.1
+1618 info linkStuff strip-ansi@3.0.1
+1619 silly linkStuff strip-ansi@3.0.1 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1620 silly linkStuff strip-ansi@3.0.1 is part of a global install
+1621 silly linkStuff strip-ansi@3.0.1 is installed into a global node_modules
+1622 silly build chalk@1.1.3
+1623 info linkStuff chalk@1.1.3
+1624 silly linkStuff chalk@1.1.3 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1625 silly linkStuff chalk@1.1.3 is part of a global install
+1626 silly linkStuff chalk@1.1.3 is installed into a global node_modules
+1627 silly build xtend@4.0.2
+1628 info linkStuff xtend@4.0.2
+1629 silly linkStuff xtend@4.0.2 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1630 silly linkStuff xtend@4.0.2 is part of a global install
+1631 silly linkStuff xtend@4.0.2 is installed into a global node_modules
+1632 silly build through2@2.0.5
+1633 info linkStuff through2@2.0.5
+1634 silly linkStuff through2@2.0.5 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules\workshopper-exercise\node_modules as its parent node_modules
+1635 silly linkStuff through2@2.0.5 is part of a global install
+1636 silly linkStuff through2@2.0.5 is installed into a global node_modules
+1637 silly build xtend@3.0.0
+1638 info linkStuff xtend@3.0.0
+1639 silly linkStuff xtend@3.0.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1640 silly linkStuff xtend@3.0.0 is part of a global install
+1641 silly linkStuff xtend@3.0.0 is installed into a global node_modules
+1642 silly build deep-eql@0.1.3
+1643 info linkStuff deep-eql@0.1.3
+1644 silly linkStuff deep-eql@0.1.3 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1645 silly linkStuff deep-eql@0.1.3 is part of a global install
+1646 silly linkStuff deep-eql@0.1.3 is installed into a global node_modules
+1647 silly build lorem-ipsum@1.0.6
+1648 info linkStuff lorem-ipsum@1.0.6
+1649 silly linkStuff lorem-ipsum@1.0.6 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1650 silly linkStuff lorem-ipsum@1.0.6 is part of a global install
+1651 silly linkStuff lorem-ipsum@1.0.6 is installed into a global node_modules
+1652 verbose linkBins [
+1652 verbose linkBins   { 'lorem-ipsum': 'bin/lorem-ipsum.bin.js' },
+1652 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm\\node_modules\\functional-javascript-workshop\\node_modules\\.bin',
+1652 verbose linkBins   false
+1652 verbose linkBins ]
+1653 silly build workshopper@2.7.0
+1654 info linkStuff workshopper@2.7.0
+1655 silly linkStuff workshopper@2.7.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1656 silly linkStuff workshopper@2.7.0 is part of a global install
+1657 silly linkStuff workshopper@2.7.0 is installed into a global node_modules
+1658 silly build workshopper-exercise@2.7.0
+1659 info linkStuff workshopper-exercise@2.7.0
+1660 silly linkStuff workshopper-exercise@2.7.0 has C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\node_modules as its parent node_modules
+1661 silly linkStuff workshopper-exercise@2.7.0 is part of a global install
+1662 silly linkStuff workshopper-exercise@2.7.0 is installed into a global node_modules
+1663 silly build functional-javascript-workshop@1.0.6
+1664 info linkStuff functional-javascript-workshop@1.0.6
+1665 silly linkStuff functional-javascript-workshop@1.0.6 has C:\Users\surface\AppData\Roaming\npm\node_modules as its parent node_modules
+1666 silly linkStuff functional-javascript-workshop@1.0.6 is part of a global install
+1667 silly linkStuff functional-javascript-workshop@1.0.6 is installed into a global node_modules
+1668 silly linkStuff functional-javascript-workshop@1.0.6 is installed into the top-level global node_modules
+1669 verbose linkBins [
+1669 verbose linkBins   {
+1669 verbose linkBins     'functional-javascript': 'functional-javascript.js',
+1669 verbose linkBins     'functional-javascript-workshop': 'functional-javascript.js'
+1669 verbose linkBins   },
+1669 verbose linkBins   'C:\\Users\\surface\\AppData\\Roaming\\npm',
+1669 verbose linkBins   true
+1669 verbose linkBins ]
+1670 timing action:build Completed in 106ms
+1671 verbose unlock done using C:\Users\surface\AppData\Roaming\npm-cache\_locks\staging-d81fcc79e0fe4f8c.lock for C:\Users\surface\AppData\Roaming\npm\node_modules\.staging
+1672 timing stage:rollbackFailedOptional Completed in 795ms
+1673 timing stage:runTopLevelLifecycles Completed in 12945ms
+1674 verbose stack Error: EEXIST: file already exists, cmd shim 'C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\functional-javascript.js' -> 'C:\Users\surface\AppData\Roaming\npm\functional-javascript'
+1674 verbose stack     at simulateEEXIST (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:87:15)
+1674 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:78:17
+1674 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-cmd-shim\index.js:51:29
+1674 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:123:16
+1674 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+1675 verbose cwd C:\
+1676 verbose Windows_NT 10.0.19041
+1677 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "functional-javascript-workshop"
+1678 verbose node v12.18.3
+1679 verbose npm  v6.14.6
+1680 error code EEXIST
+1681 error path C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\functional-javascript.js
+1682 error dest C:\Users\surface\AppData\Roaming\npm\functional-javascript
+1683 error EEXIST: file already exists, cmd shim 'C:\Users\surface\AppData\Roaming\npm\node_modules\functional-javascript-workshop\functional-javascript.js' -> 'C:\Users\surface\AppData\Roaming\npm\functional-javascript'
+1684 error File exists: C:\Users\surface\AppData\Roaming\npm\functional-javascript
+1685 error Remove the existing file and try again, or run npm
+1686 error with --force to overwrite files recklessly.
+1687 verbose exit [ 1, true ]
